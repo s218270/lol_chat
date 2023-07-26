@@ -6,7 +6,7 @@ import SessionProvider from '@/components/SessionProvider'
 import { getServerSession } from 'next-auth'
 //import {authOptions} from './api/auth/[...nextauth]/route'
 import Login from '@/components/Login'
-import { options } from '@/pages/api/auth/[...nextauth]'
+import { authOptions } from '@/pages/api/auth/[...nextauth]'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +21,7 @@ export default async function RootLayout({
   children: React.ReactNode
 }) {
 
-    const session = await getServerSession(options)
+    const session = await getServerSession(authOptions)
     console.log(session)
 
   return (
