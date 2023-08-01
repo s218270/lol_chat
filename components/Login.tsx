@@ -4,14 +4,16 @@
 import { signIn } from 'next-auth/react'
 import Image from 'next/image'
 import React from 'react'
-import logo from '../public/great_logos_logo_on_black_background_gold_wings_at_the_sides_i_0-removebg-preview.png'
+import logo from '../public/logo_on_black_background_gold_wings_at_the_sides_i_0-removebg.png'
 import background from '../public/Maltphite.jpg'
+import Demo from './Demo'
+import ChampionSelect from './ChampionSelect'
 
 
 const Login = () => {
   return (
     <div>
-        <nav className='flex items-center w-screen h-16 bg-[#111111]'>
+        <nav className='flex items-center w-screen h-16 bg-gradient-to-b from-gray-700 to-gray-900 border-b-2 border-gray-700'>
             <div className='ml-[10%]'>
                 <img src={logo.src} alt="logo" width={112} height={63}/>
             </div>
@@ -38,6 +40,15 @@ const Login = () => {
                 className='w-screen h-screen object-cover'
                 alt='background'
             />
+            <div className='flex flex-col absolute h-screen w-screen'>
+                <div className='flex flex-row h-1/2 '>
+                    <div className='w-1/2'>
+
+                    </div>
+                    <Demo width='1/2' height='full' backgroundColor='gray-700' fontSize='16'/>
+                </div>
+                <ChampionSelect />
+            </div>
         </div>
 
     </div>

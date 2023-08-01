@@ -7,6 +7,7 @@ import { getServerSession } from 'next-auth'
 //import {authOptions} from './api/auth/[...nextauth]/route'
 import Login from '@/components/Login'
 import { authOptions } from '@/pages/api/auth/[...nextauth]'
+import ClientProvider from '@/components/ClientProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -42,7 +43,7 @@ export default async function RootLayout({
             <div className="flex">
             {/*Sidebar*/}
             <SideBar/>
-            {/*Client provider */}
+            <ClientProvider/>
 
             <div className="bg-gray-700 flex-1">
                 {children}
