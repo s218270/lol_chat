@@ -9,6 +9,7 @@ import Login from '@/components/Login'
 import { authOptions } from '@/pages/api/auth/[...nextauth]'
 import ClientProvider from '@/components/ClientProvider'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -23,7 +24,7 @@ export default async function RootLayout({
 }) {
 
     const session = await getServerSession(authOptions)
-    console.log(session)
+    // console.log(session)
 
   return (
     <html lang="en">

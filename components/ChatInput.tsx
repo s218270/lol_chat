@@ -2,18 +2,18 @@
 
 import { db } from '@/firebase'
 import { PaperAirplaneIcon } from '@heroicons/react/24/outline'
-import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
+import { addDoc, collection, doc, serverTimestamp, setDoc } from 'firebase/firestore'
 import { useSession } from 'next-auth/react'
 import React, { useState } from 'react'
 import {toast} from 'react-hot-toast'
 
 
 type Props = {
-    chatId: string
+    champion: string
 }
 
 
-function ChatInput({chatId} : Props) {
+function ChatInput({champion} : Props) {
 
     const [prompt, setPrompt] = useState<string>('')
     const {data: session} = useSession()
@@ -36,8 +36,8 @@ function ChatInput({chatId} : Props) {
             }
         }
 
-        await addDoc(collection(db, 'users', session?.user?.email!, 'chats', chatId, 'messages'),
-                        message)
+
+        await addDoc(collection(db, 'users', session?.user?.email!, 'champions', champion, 'messages'), message)
 
         //toast notification loading
         const notification = toast.loading('Chat is thinking')
@@ -48,7 +48,7 @@ function ChatInput({chatId} : Props) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                prompt: input, chatId, model, session
+                prompt: input, champion, model, session
             })
         }).then(() => {
         //toast notification successfull

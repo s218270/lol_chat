@@ -6,30 +6,31 @@ import {useCollection} from 'react-firebase-hooks/firestore'
 import { collection } from 'firebase/firestore';
 import { db } from '@/firebase';
 import ChatRow from './ChatRow';
+import ChampionSelect from './ChampionSelect';
 const SideBar = () => {
 
     const { data: session} = useSession();
-
-    const [chats, login, error] = useCollection(
-        session && collection(db, 'users', session?.user?.email!, 'chats')
-    )
+    
+    const champions = ['Aatrox', 'Akali', 'Azir', 'Malphite']
 
 
   return (
     <div className="p-2 flex flex-col h-screen bg-gray-800 text-white">
-        <div className="flex-1">
-            <div>
+        <div className="flex h-screen justify-end flex-col">
+            <ChampionSelect width='1/2' height='full' backgroundColor='gray-700' fontSize='16' columnsLg='3' columnsMd='3'/>
+            {/* <div>
                 <div>
                     <NewChat/>
-                    {chats?.docs.map(chat => (
-                        <ChatRow key={chat.id} id={chat.id} />
+                    {champions.map(champion => (
+                        <ChatRow key={champion} champion={champion}/>
                     ))}
+                    
                 </div>
-            </div>
+            </div> */}
+            {session && (
+                <img onClick={() => signOut()} src={session.user?.image || ''} alt='' className='h-12 w-12 rounded-full cursor-pointer mx-auto mb-8 hover:opacity-50 mt-16'/>
+            )}
         </div>
-        {session && (
-            <img onClick={() => signOut()} src={session.user?.image || ''} alt='' className='h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50'/>
-        )}
     </div>
   )
 }

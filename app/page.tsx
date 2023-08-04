@@ -1,6 +1,9 @@
+import { db } from '@/firebase'
 import React from 'react'
 
 const HomePage = () => {
+
+
   return (
     <div className="text-white flex flex-col items-center h-screen px-2 justify-center">
         <h1 className="text-5xl font-bold mb-20">LOLChat</h1>

@@ -7,3 +7,7 @@ interface Message {
         avatar: string;
     }
 }
+
+interface champions {
+    champion: Array
+}

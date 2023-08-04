@@ -8,14 +8,14 @@ import { useCollection } from 'react-firebase-hooks/firestore'
 import Message from './Message'
 
 type Props = {
-    chatId: string
+    champion: string
 }
 
-function Chat({chatId}: Props) {
+function Chat({champion}: Props) {
 
     const {data: session} = useSession()
 
-    const [messages] = useCollection(session && query(collection(db, 'users', session?.user?.email!, 'chats', chatId, 'messages'),
+    const [messages] = useCollection(session && query(collection(db, 'users', session?.user?.email!, 'champions', champion, 'messages'),
                                     orderBy('createdAt', 'asc')))
 
   return (

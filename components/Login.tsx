@@ -8,6 +8,7 @@ import logo from '../public/logo_on_black_background_gold_wings_at_the_sides_i_0
 import background from '../public/Maltphite.jpg'
 import Demo from './Demo'
 import ChampionSelect from './ChampionSelect'
+import ChatRow from './ChatRow'
 
 
 const Login = () => {
@@ -47,7 +48,12 @@ const Login = () => {
                     </div>
                     <Demo width='1/2' height='full' backgroundColor='gray-700' fontSize='16'/>
                 </div>
-                <ChampionSelect />
+                <ChampionSelect width='1/2' height='full' backgroundColor='gray-700' fontSize='16' columnsLg='8' columnsMd='4'/>
+                {/* {champions.map(champion => (
+                        <button onClick={() => signIn()}>
+                            <ChatRow key={champion} champion={champion}/>
+                        </button>
+                    ))} */}
             </div>
         </div>
 
