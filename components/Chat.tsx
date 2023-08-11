@@ -28,7 +28,7 @@ const Chat: NextPage<Props> = (props) => {
 
   return (
     <div className='flex-1 h-screen overflow-hidden overflow-y-hidden mr-0 p-0'>
-        <img src={image} className="flex-1 h-screen w-screen object-cover"/>
+        <img src={`/champions/Aatrox/background/Aatrox_OriginalSkin.jpg`} className="flex-1 h-screen w-screen object-cover"/>
         <button className="absolute top-0 left-0 p-3 z-50 rotate-180 md:rotate-0">
                 <ArrowLeftOnRectangleIcon className='w-12 h-12 self-end text-white'/>
         </button>
