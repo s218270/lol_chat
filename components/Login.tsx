@@ -3,36 +3,41 @@
 
 import { signIn } from 'next-auth/react'
 import Image from 'next/image'
-import React from 'react'
-import logo from '../public/logo_on_black_background_gold_wings_at_the_sides_i_0-removebg.png'
+import React, { useState } from 'react'
+import logo from '../public/default1.svg'
 import background from '../public/Maltphite.jpg'
 import Demo from './Demo'
 import ChampionSelect from './ChampionSelect'
 import ChatRow from './ChatRow'
 
 
+
 const Login = () => {
+
+    const [selectedChampion, setSelectedChampion] = useState('')
+
+
   return (
-    <div>
-        <nav className='flex items-center w-screen h-16 bg-gradient-to-b from-gray-700 to-gray-900 border-b-2 border-gray-700'>
+    <div className='w-screen h-screen p-0 m-0 flex flex-col'>
+        <nav className='flex items-center w-screen h-16 bg-gradient-to-b from-[#171215] to-[#221B1E] absolute top-0 z-50 border-b-2 border-[#2EBFA5]'>
             <div className='ml-[10%]'>
                 <img src={logo.src} alt="logo" width={112} height={63}/>
             </div>
             <div className='ml-auto flex space-x-4 mr-[3%]'>
                 <button
                         onClick={() => signIn()} 
-                        className="text-white font-bold font-sans text-2xl">
+                        className="text-white font-bold font-sans text-xl bg-[#13505B] px-2 py-1 rounded border-2 border-[#2EBFA5] hover:bg-[#2EBFA5] hover:border-[#13505B]">
                         Log In
                 </button>
-                <p className='text-white font-bold text-2xl'> | </p>
+                <p className='text-white font-bold text-xl'> | </p>
                 <button
                     onClick={() => signIn()} 
-                    className="text-white font-bold text-2xl">
-                    Sign In
+                    className="text-white font-bold text-xl bg-[#13505B] px-2 py-1 rounded border-2 border-[#2EBFA5] hover:bg-[#2EBFA5] hover:border-[#13505B]">
+                    Sign Up
                 </button>
             </div>
         </nav>
-        <div className="flex w-screen">
+        <div className="flex flex-col w-screen">
             <Image 
                 src={background.src}
                 quality={100}
@@ -48,12 +53,8 @@ const Login = () => {
                     </div>
                     <Demo width='1/2' height='full' backgroundColor='gray-700' fontSize='16'/>
                 </div>
-                <ChampionSelect width='1/2' height='full' backgroundColor='gray-700' fontSize='16' columnsLg='8' columnsMd='4'/>
-                {/* {champions.map(champion => (
-                        <button onClick={() => signIn()}>
-                            <ChatRow key={champion} champion={champion}/>
-                        </button>
-                    ))} */}
+                <ChampionSelect width='1/2' height='full' backgroundColor='gray-700' fontSize='16' columnsLg='8' columnsMd='4' selected={setSelectedChampion}/>
+                
             </div>
         </div>
 

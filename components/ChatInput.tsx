@@ -18,7 +18,7 @@ function ChatInput({champion} : Props) {
     const [prompt, setPrompt] = useState<string>('')
     const {data: session} = useSession()
     //useSWR to get model
-    const model = 'text-davinci-003'
+    const model = 'gpt-3.5-turbo'
 
 
     const sendMessage = async(e : React.FormEvent<HTMLFormElement>) => {
@@ -60,8 +60,8 @@ function ChatInput({champion} : Props) {
     }
 
   return (
-    <div className='bg-gray-500/50 text-gray-400 rounded-lg text-base'>
-        <form onSubmit={sendMessage} className='p-5 space-x-5 flex'>
+    <div className='bg-gray-500/50 text-white rounded-lg text-center absolute z-30 w-2/3 h-16 self-center bottom-4'>
+        <form onSubmit={sendMessage} className='p-5 flex justify-center'>
             <input onChange={e => setPrompt(e.target.value)} value={prompt} type='text' placeholder='Type your message' 
             className='focus:outline-none bg-transparent flex-1 disabled:cursor-not-allowed disabled:text-gray-300'
             disabled={!session}/>    

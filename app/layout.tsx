@@ -8,6 +8,7 @@ import { getServerSession } from 'next-auth'
 import Login from '@/components/Login'
 import { authOptions } from '@/pages/api/auth/[...nextauth]'
 import ClientProvider from '@/components/ClientProvider'
+import { useEffect} from 'react'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +26,11 @@ export default async function RootLayout({
 
     const session = await getServerSession(authOptions)
     // console.log(session)
+    // const [selectedChampion, setSelectedChampion] = useState('')
+    const handleSelection = (championData: string) => {
+        // setSelectedChampion(championData)
+    }
+
 
   return (
     <html lang="en">
@@ -41,12 +47,13 @@ export default async function RootLayout({
           {!session ? (
             <Login/>
           ) : (
-            <div className="flex">
+            <div className="flex flex-row">
             {/*Sidebar*/}
             <SideBar/>
             <ClientProvider/>
 
-            <div className="bg-gray-700 flex-1">
+            <div className="bg-black">
+                {/* <img src='/champions/Aatrox/background/Aatrox_OriginalSkin.jpg' className='w-full h-full object-cover'/> */}
                 {children}
             </div>
             </div>
