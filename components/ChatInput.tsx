@@ -60,13 +60,13 @@ function ChatInput({champion} : Props) {
     }
 
   return (
-    <div className='bg-gray-500/50 text-white rounded-lg text-center absolute z-30 w-2/3 h-16 self-center bottom-4'>
-        <form onSubmit={sendMessage} className='p-5 flex justify-center'>
+    <div className='bg-gray-500/50 text-white rounded text-center absolute z-30 w-4/5 h-16 self-center bottom-4'>
+        <form onSubmit={sendMessage} className='px-5 py-3 flex justify-center'>
             <input onChange={e => setPrompt(e.target.value)} value={prompt} type='text' placeholder='Type your message' 
             className='focus:outline-none bg-transparent flex-1 disabled:cursor-not-allowed disabled:text-gray-300'
             disabled={!session}/>    
-            <button type='submit' disabled={!prompt} className='bg-[#11A37F] hover:opacity-50 text-white font-bold px-4 py-2 rounded-3xl disabled:bg-gray-300 disabled:cursor-not-allowed'>
-                <PaperAirplaneIcon className='h-5 w-5 -rotate-45'/>
+            <button type='submit' disabled={!prompt} className='bg-[#2EBFA5] hover:opacity-50 text-white font-bold px-4 py-2 rounded disabled:bg-[#13505B] disabled:cursor-not-allowed hover:scale-110 transition-transform duration-300 ease-in-out'>
+                <PaperAirplaneIcon className='h-5 w-5 -rotate-45 '/>
             </button>
         </form>        
     </div>

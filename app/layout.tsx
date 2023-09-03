@@ -9,7 +9,8 @@ import Login from '@/components/Login'
 import { authOptions } from '@/pages/api/auth/[...nextauth]'
 import ClientProvider from '@/components/ClientProvider'
 import { useEffect} from 'react'
-
+import pattern from '../public/styles/63171.jpg'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,19 +36,22 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-      <title>LOLChat</title>
-        <meta content='width=device-width, initial-scale=1'
-          name='viewport' 
-        />
+      <title>LOLChat</title>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
         <link rel='icon' href='/favicon.ico'/>
       </head>
 
-      <body>
+      <body className='bg-[#171215]'>
         <SessionProvider session={session}>
           {!session ? (
-            <Login/>
+            <>
+                <Login/>
+            </>
           ) : (
-            <div className="flex flex-row">
+            <div className="flex flex-row fullHeight">
             {/*Sidebar*/}
             <SideBar/>
             <ClientProvider/>

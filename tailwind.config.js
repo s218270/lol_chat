@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+        fontFamily: {
+            custom: [],
+            teko: ['Teko', 'sans-serif'],
+            'chakra-petch': ['Chakra Petch', 'sans-serif'],
+            cinzel: ['Cinzel', 'serif'],
+        },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

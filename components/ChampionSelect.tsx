@@ -56,7 +56,7 @@ const ChampionSelect : React.FC<CustomProps> = ({
   };
 
 
-  const styles = `grid md:grid-cols-${columnsMd} lg:grid-cols-${columnsLg} gap-2 grid-cols-3`
+  const styles = `grid ${width == '3/5' ? 'grid-cols-4 md:grid-cols-6 lg:grid-cols-8' : 'grid-cols-3'} md:grid-cols-${columnsMd} lg:grid-cols-${columnsLg} gap-2 w-full overflow-x-hidden`
 
   return (
     <>
@@ -64,11 +64,11 @@ const ChampionSelect : React.FC<CustomProps> = ({
       <input
         type="text"
         placeholder="Search..."
-        className="border-2 border-[#2EBFA5] rounded px-4 py-2 focus:outline-none focus:ring focus:border-[#2EBFA5]"
+        className={`border-2 border-[#2EBFA5] rounded px-4 py-2 focus:outline-none focus:ring focus:border-[#2EBFA5] ${width == '3/5' ? 'w-2/5' : 'w-3/5'}`}
         value={query}
         onChange={handleSearch}
       />
-      <button className="ml-2 bg-[#13505B] hover:bg-[#2EBFA5] text-white rounded px-4 py-2 border-2 border-[#2EBFA5] hover:border-[#13505B]">
+      <button className="ml-2 bg-[#13505B] hover:bg-[#2EBFA5] text-white rounded px-4 py-2 border-2 border-[#2EBFA5] hover:border-[#13505B] hover:scale-110 transition-transform duration-300 ease-in-out relative">
         Search
       </button>
     </div>
@@ -84,10 +84,10 @@ const ChampionSelect : React.FC<CustomProps> = ({
                     }}>
                         <img
                             src={`/champions/${champion.name}/${champion.name}Square.webp`}
-                            alt={champion.name}
-                            className="w-16 h-16 mx-2"
+                            alt={champion.altName ? champion.altName : champion.name}
+                            className="w-16 h-16 mx-2 rounded hover:scale-110 transition-transform duration-300 ease-in-out"
                         />
-                        <p>{champion.name}</p>
+                        <p>{champion.altName != undefined ? champion.altName : champion.name}</p>
                         
 
                     </button>
@@ -96,10 +96,10 @@ const ChampionSelect : React.FC<CustomProps> = ({
                 <Link href={`/${champion.name}`} onClick={() => selected(champion.name)}>
                     <img
                         src={`/champions/${champion.name}/${champion.name}Square.webp`}
-                        alt={champion.name}
-                        className="w-16 h-16 mx-2"
+                        alt={champion.altName != undefined ? champion.altName : champion.name}
+                        className="w-16 h-16 mx-2 rounded hover:scale-110 transition-transform duration-200 ease-in-out"
                     />
-                    <p>{champion.name}</p>
+                    <p>{champion.altName != undefined ? champion.altName : champion.name}</p>
                     
 
                 </Link>

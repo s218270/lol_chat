@@ -19,16 +19,19 @@ const SideBar  = () => {
 
     const { data: session} = useSession();
     const [selectedChampion, setSelectedChampion] = useState('Aatrox')
+    const [isVisible, setIsVisible] = useState(true)
     const champions = ['Aatrox', 'Akali', 'Azir', 'Malphite']
-    // useEffect(() => {
-    //     selected(selectedChampion)
-    // }, [selectedChampion])
+
 
   return (
-    <div className="p-2 flex-col h-screen bg-gradient-to-r from-[#171215] to-[#221B1E] text-white hidden md:flex border-r-2 border-[#2EBFA5]">
+    <>
+            <button className={`absolute top-0 p-3 z-50 ${isVisible? 'rotate-0 left-80': 'rotate-180 left-0 '} transition-all duration-300 ease-in-out hover:scale-110`} onClick={() => setIsVisible(!isVisible)}>
+                    <ArrowLeftOnRectangleIcon className='w-12 h-12 text-white'/>
+            </button>
+    <div className={`absolute md:relative flex z-50 left-0 flex-col h-screen text-white ${isVisible? 'w-80 p-2 border-r-2' : 'w-0 p-0'}  border-[#2EBFA5] transition-all duration-300 ease-in-out bg-gradient-to-r from-[#171215] to-[#221B1E] overflow-hidden`}>
             {/* <TrashIcon className='w-12 h-12 self-end my-2'/> */}
             <SelectedChampion champion={selectedChampion}/>
-            <ChampionSelect width='1/2' height='full' backgroundColor='gray-700' fontSize='16' columnsLg='4' columnsMd='3' selected={setSelectedChampion}/>
+            <ChampionSelect width='full' height='full' backgroundColor='gray-700' fontSize='16' columnsLg='4' columnsMd='3' selected={setSelectedChampion}/>
             {/* <div>
                 <div>
                     <NewChat/>
@@ -43,13 +46,14 @@ const SideBar  = () => {
                     <>
                     <img src={session.user?.image || ''} alt='' className='h-12 w-12 rounded cursor-pointer hover:opacity-50 my-2'/>
                     <button onClick={() => signOut()}>
-                        <HomeIcon className='w-12 h-12 my-2'/>
+                        <HomeIcon className='w-12 h-12 my-2 hover:scale-110 transition-all duration-300 ease-in-out'/>
                     </button>
                     </>
                 )}
             </div>
         
     </div>
+    </>
   )
 }
 

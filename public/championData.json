@@ -1,494 +1,668 @@
 [
     {
-        "name": "Aatrox"
+        "name": "Aatrox",
+        "images": ["Aatrox_BloodMoonSkin.jpg","Aatrox_DRXSkin.jpg","Aatrox_JusticarSkin.jpg","Aatrox_LunarEclipseSkin.jpg","Aatrox_MechaSkin.jpg","Aatrox_OdysseySkin.jpg","Aatrox_OriginalSkin.jpg","Aatrox_PrestigeBloodMoon(2022)Skin.jpg","Aatrox_PrestigeBloodMoonSkin.jpg","Aatrox_PrestigeDRXSkin.jpg","Aatrox_SeaHunterSkin.jpg","Aatrox_VictoriousSkin.jpg"]
     },
     {
-        "name": "Ahri"
+        "name": "Ahri",
+        "images": ["Ahri_AcademySkin.jpg","Ahri_ArcadeSkin.jpg","Ahri_ArcanaSkin.jpg","Ahri_ChallengerSkin.jpg","Ahri_CovenSkin.jpg","Ahri_DynastySkin.jpg","Ahri_ElderwoodSkin.jpg","Ahri_FoxfireSkin.jpg","Ahri_KDAALLOUTSkin.jpg","Ahri_KDASkin.jpg","Ahri_MidnightSkin.jpg","Ahri_OriginalSkin.jpg","Ahri_PopstarSkin.jpg","Ahri_PrestigeKDA(2022)Skin.jpg","Ahri_PrestigeKDASkin.jpg","Ahri_SnowMoonSkin.jpg","Ahri_SpiritBlossomSkin.jpg","Ahri_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Akali"
+        "name": "Akali",
+        "images": ["Akali_All-StarSkin.jpg","Akali_BloodMoonSkin.jpg","Akali_CrimeCityNightmareSkin.jpg","Akali_DRXSkin.jpg","Akali_HeadhunterSkin.jpg","Akali_InfernalSkin.jpg","Akali_KDAALLOUTSkin.jpg","Akali_KDASkin.jpg","Akali_NurseSkin.jpg","Akali_OriginalSkin.jpg","Akali_PrestigeKDA(2022)Skin.jpg","Akali_PrestigeKDASkin.jpg","Akali_PROJECTSkin.jpg","Akali_SashimiSkin.jpg","Akali_SilverfangSkin.jpg","Akali_StarGuardianSkin.jpg","Akali_StingerSkin.jpg","Akali_TrueDamageSkin.jpg"]
     },
     {
-        "name": "Akshan"
+        "name": "Akshan",
+        "images": ["Akshan_CrystalRoseSkin.jpg","Akshan_CyberPopSkin.jpg","Akshan_OriginalSkin.jpg"]
     },
     {
-        "name": "Alistar"
+        "name": "Alistar",
+        "images": ["Alistar_BlackfrostSkin.jpg","Alistar_BlackSkin.jpg","Alistar_ConquerorSkin.jpg","Alistar_GoldenSkin.jpg","Alistar_HextechSkin.jpg","Alistar_InfernalSkin.jpg","Alistar_LonghornSkin.jpg","Alistar_LunarBeastSkin.jpg","Alistar_MarauderSkin.jpg","Alistar_MatadorSkin.jpg","Alistar_MooCowSkin.jpg","Alistar_OriginalSkin.jpg","Alistar_SKTT1Skin.jpg","Alistar_SweeperSkin.jpg","Alistar_UnchainedSkin.jpg"]
     },
     {
-        "name": "Amumu"
+        "name": "Amumu",
+        "images": ["Amumu_Almost-PromKingSkin.jpg","Amumu_EmumuSkin.jpg","Amumu_HeartacheSkin.jpg","Amumu_HextechSkin.jpg","Amumu_InfernalSkin.jpg","Amumu_LittleKnightSkin.jpg","Amumu_OriginalSkin.jpg","Amumu_PharaohSkin.jpg","Amumu_PorcelainSkin.jpg","Amumu_PumpkinPrinceSkin.jpg","Amumu_Re-GiftedSkin.jpg","Amumu_SadRobotSkin.jpg","Amumu_SewnChaosSkin.jpg","Amumu_SurprisePartySkin.jpg","Amumu_VancouverSkin.jpg"]
     },
     {
-        "name": "Anivia"
+        "name": "Anivia",
+        "images": ["Anivia_BewitchingBatniviaSkin.jpg","Anivia_BirdofPreySkin.jpg","Anivia_BlackfrostSkin.jpg","Anivia_CosmicFlightSkin.jpg","Anivia_DivinePhoenixSkin.jpg","Anivia_FestivalQueenSkin.jpg","Anivia_HextechSkin.jpg","Anivia_NoxusHunterSkin.jpg","Anivia_OriginalSkin.jpg","Anivia_PapercraftSkin.jpg","Anivia_PrehistoricSkin.jpg","Anivia_TeamSpiritSkin.jpg","Anivia_VictoriousSkin.jpg"]
     },
     {
-        "name": "Annie"
+        "name": "Annie",
+        "images": ["Annie_Annie-VersarySkin.jpg","Annie_AnnieinWonderlandSkin.jpg","Annie_CafeCutiesSkin.jpg","Annie_FrankenTibbersSkin.jpg","Annie_FrightNightSkin.jpg","Annie_FrostfireSkin.jpg","Annie_GothSkin.jpg","Annie_HextechSkin.jpg","Annie_LunarBeastSkin.jpg","Annie_OriginalSkin.jpg","Annie_PandaSkin.jpg","Annie_PromQueenSkin.jpg","Annie_RedRidingSkin.jpg","Annie_ReverseSkin.jpg","Annie_SuperGalaxySkin.jpg","Annie_SweetheartSkin.jpg"]
     },
     {
-        "name": "Aphelios"
+        "name": "Aphelios",
+        "images": ["Aphelios_EDGSkin.jpg","Aphelios_LunarBeastSkin.jpg","Aphelios_NightbringerSkin.jpg","Aphelios_OriginalSkin.jpg","Aphelios_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Ashe"
+        "name": "Ashe",
+        "images": ["Ashe_AmethystSkin.jpg","Ashe_ChampionshipSkin.jpg","Ashe_CosmicQueenSkin.jpg","Ashe_CovenSkin.jpg","Ashe_DRXSkin.jpg","Ashe_FaeDragonSkin.jpg","Ashe_FreljordSkin.jpg","Ashe_HeartseekerSkin.jpg","Ashe_HighNoonSkin.jpg","Ashe_LunarEmpressSkin.jpg","Ashe_MarauderSkin.jpg","Ashe_OceanSongSkin.jpg","Ashe_OriginalSkin.jpg","Ashe_PROJECTSkin.jpg","Ashe_QueenSkin.jpg","Ashe_SherwoodForestSkin.jpg","Ashe_WoadSkin.jpg"]
     },
     {
-        "name": "Aurelion_Sol"
+        "name": "Aurelion_Sol",
+        "altName": "Aurelion Sol",
+        "images": ["Aurelion_Sol_AshenLordSkin.jpg","Aurelion_Sol_InkshadowSkin.jpg","Aurelion_Sol_MechaSkin.jpg","Aurelion_Sol_OriginalSkin.jpg","Aurelion_Sol_StormDragonSkin.jpg"]
     },
     {
-        "name": "Azir"
+        "name": "Azir",
+        "images": ["Azir_ElderwoodSkin.jpg","Azir_GalacticSkin.jpg","Azir_GravelordSkin.jpg","Azir_OriginalSkin.jpg","Azir_SKTT1Skin.jpg","Azir_WarringKingdomsSkin.jpg","Azir_Worlds2022Skin.jpg"]
     },
     {
-        "name": "Bard"
+        "name": "Bard",
+        "images": ["Bard_AstronautSkin.jpg","Bard_BardBardSkin.jpg","Bard_CafeCutiesSkin.jpg","Bard_ElderwoodSkin.jpg","Bard_OriginalSkin.jpg","Bard_ShanHaiScrollsSkin.jpg","Bard_SnowDaySkin.jpg","Rift_Quest_party_01.jpg"]
     },
     {
-        "name": "Bel'Veth"
+        "name": "Bel'Veth",
+        "images": ["Bel'Veth_BattleBossSkin.jpg","Bel'Veth_OriginalSkin.jpg"]
     },
     {
-        "name": "Blitzcrank"
+        "name": "Blitzcrank",
+        "images": ["Blitzcrank_BattleBossSkin.jpg","Blitzcrank_BoomBoomSkin.jpg","Blitzcrank_DefinitelyNotSkin.jpg","Blitzcrank_GoalkeeperSkin.jpg","Blitzcrank_iBlitzcrankSkin.jpg","Blitzcrank_LancerParagonSkin.jpg","Blitzcrank_LancerRogueSkin.jpg","Blitzcrank_OriginalSkin.jpg","Blitzcrank_PiltoverCustomsSkin.jpg","Blitzcrank_RiotSkin.jpg","Blitzcrank_RustySkin.jpg","Blitzcrank_SewnChaosSkin.jpg","Blitzcrank_SpaceGrooveSkin.jpg","Blitzcrank_VictoriousSkin.jpg","Blitzcrank_Witch'sBrewSkin.jpg","Blitzcrank_ZenithGamesSkin.jpg"]
     },
     {
-        "name": "Brand"
+        "name": "Brand",
+        "images": ["Brand_ApocalypticSkin.jpg","Brand_ArclightSkin.jpg","Brand_BattleBossSkin.jpg","Brand_CryocoreSkin.jpg","Brand_DebonairSkin.jpg","Brand_EternalDragonSkin.jpg","Brand_OriginalSkin.jpg","Brand_PrestigeDebonairSkin.jpg","Brand_SpiritFireSkin.jpg","Brand_VandalSkin.jpg","Brand_ZombieSkin.jpg"]
     },
     {
-        "name": "Braum"
+        "name": "Braum",
+        "images": ["Braum_BraumLionheartSkin.jpg","Braum_DragonslayerSkin.jpg","Braum_ElTigreSkin.jpg","Braum_MafiaSkin.jpg","Braum_OriginalSkin.jpg","Braum_PoolPartySkin.jpg","Braum_SantaSkin.jpg","Braum_SugarRushSkin.jpg"]
     },
     {
-        "name": "Caitlyn"
+        "name": "Caitlyn",
+        "images": ["Caitlyn_ArcadeSkin.jpg","Caitlyn_ArcaneSkin.jpg","Caitlyn_ArcticWarfareSkin.jpg","Caitlyn_BattleAcademiaSkin.jpg","Caitlyn_DRXSkin.jpg","Caitlyn_HeadhunterSkin.jpg","Caitlyn_HeartthrobSkin.jpg","Caitlyn_HeartthrobSkin_Censored.jpg","Caitlyn_LunarWraithSkin.jpg","Caitlyn_OfficerSkin.jpg","Caitlyn_OriginalSkin.jpg","Caitlyn_PoolPartySkin.jpg","Caitlyn_PrestigeArcadeSkin.jpg","Caitlyn_PulsefireSkin.jpg","Caitlyn_ResistanceSkin.jpg","Caitlyn_SafariSkin.jpg","Caitlyn_SheriffSkin.jpg","Caitlyn_SnowMoonSkin.jpg"]
     },
     {
-        "name": "Camille"
+        "name": "Camille",
+        "images": ["Camille_ArcanaSkin.jpg","Camille_CovenSkin.jpg","Camille_iGSkin.jpg","Camille_OriginalSkin.jpg","Camille_ProgramSkin.jpg","Camille_StrikeCommanderSkin.jpg"]
     },
     {
-        "name": "Cassiopeia"
+        "name": "Cassiopeia",
+        "images": ["Cassiopeia_BewitchingSkin.jpg","Cassiopeia_CovenSkin.jpg","Cassiopeia_DesperadaSkin.jpg","Cassiopeia_EternumSkin.jpg","Cassiopeia_JadeFangSkin.jpg","Cassiopeia_MythicSkin.jpg","Cassiopeia_OriginalSkin.jpg","Cassiopeia_SirenSkin.jpg","Cassiopeia_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Cho'Gath"
+        "name": "Cho'Gath",
+        "images": ["Cho'Gath_BattlecastPrimeSkin.jpg","Cho'Gath_BrokenCovenantSkin.jpg","Cho'Gath_DarkStarSkin.jpg","Cho'Gath_GentlemanSkin.jpg","Cho'Gath_JurassicSkin.jpg","Cho'Gath_LochNessSkin.jpg","Cho'Gath_NightmareSkin.jpg","Cho'Gath_OriginalSkin.jpg","Cho'Gath_PrehistoricSkin.jpg","Cho'Gath_ShanHaiScrollsSkin.jpg"]
     },
     {
-        "name": "Corki"
+        "name": "Corki",
+        "images": ["Corki_ArcadeSkin.jpg","Corki_AstronautSkin.jpg","Corki_CorgiSkin.jpg","Corki_DragonwingSkin.jpg","Corki_FnaticSkin.jpg","Corki_HotRodSkin.jpg","Corki_IceTobogganSkin.jpg","Corki_OriginalSkin.jpg","Corki_RedBaronSkin.jpg","Corki_UFOSkin.jpg","Corki_UrfriderSkin.jpg"]
     },
     {
-        "name": "Darius"
+        "name": "Darius",
+        "images": ["Darius_AcademySkin.jpg","Darius_BioforgeSkin.jpg","Darius_CrimeCityNightmareSkin.jpg","Darius_DreadnovaSkin.jpg","Darius_DunkmasterSkin.jpg","Darius_God-KingSkin.jpg","Darius_HighNoonSkin.jpg","Darius_LordSkin.jpg","Darius_LunarBeastSkin.jpg","Darius_OriginalSkin.jpg","Darius_SpiritBlossomSkin.jpg","Darius_WoadKingSkin.jpg"]
     },
     {
-        "name": "Diana"
+        "name": "Diana",
+        "images": ["Diana_BattleQueenSkin.jpg","Diana_BloodMoonSkin.jpg","Diana_DarkValkyrieSkin.jpg","Diana_DarkWatersSkin.jpg","Diana_DragonslayerSkin.jpg","Diana_FirecrackerSkin.jpg","Diana_InfernalSkin.jpg","Diana_LunarGoddessSkin.jpg","Diana_OriginalSkin.jpg","Diana_PrestigeBattleQueenSkin.jpg","Diana_SentinelSkin.jpg","Diana_WinterblessedSkin.jpg"]
     },
     {
-        "name": "Dr._Mundo"
+        "name": "Dr._Mundo",
+        "altName": "Dr. Mundo",
+        "images": ["Dr._Mundo_CorporateMundoSkin.jpg","Dr._Mundo_ElMachoMundoSkin.jpg","Dr._Mundo_ExecutionerMundoSkin.jpg","Dr._Mundo_FrozenPrinceMundoSkin.jpg","Dr._Mundo_Mr.MundoverseSkin.jpg","Dr._Mundo_MundoMundoSkin.jpg","Dr._Mundo_OriginalSkin.jpg","Dr._Mundo_PoolPartyMundoSkin.jpg","Dr._Mundo_RagebornMundoSkin.jpg","Dr._Mundo_ToxicSkin.jpg","Dr._Mundo_TPAMundoSkin.jpg"]
     },
     {
-        "name": "Draven"
+        "name": "Draven",
+        "images": ["Draven_BeastHunterSkin.jpg","Draven_DebonairSkin.jpg","Draven_DravenDravenSkin.jpg","Draven_FrightNightSkin.jpg","Draven_GladiatorSkin.jpg","Draven_MechaKingdomsSkin.jpg","Draven_OriginalSkin.jpg","Draven_PoolPartySkin.jpg","Draven_PrimetimeSkin.jpg","Draven_RuinedSkin.jpg","Draven_SantaSkin.jpg","Draven_SoulReaverSkin.jpg"]
     },
     {
-        "name": "Ekko"
+        "name": "Ekko",
+        "images": ["Ekko_AcademySkin.jpg","Ekko_FirelightSkin.jpg","Ekko_OriginalSkin.jpg","Ekko_PrestigeStarGuardianSkin.jpg","Ekko_PROJECTSkin.jpg","Ekko_PulsefireSkin.jpg","Ekko_SandstormSkin.jpg","Ekko_SKTT1Skin.jpg","Ekko_StarGuardianSkin.jpg","Ekko_TrickorTreatSkin.jpg","Ekko_TrueDamageSkin.jpg"]
     },
     {
-        "name": "Elise"
+        "name": "Elise",
+        "images": ["Elise_BewitchingSkin.jpg","Elise_BloodMoonSkin.jpg","Elise_DeathBlossomSkin.jpg","Elise_OriginalSkin.jpg","Elise_SKTT1Skin.jpg","Elise_SuperGalaxySkin.jpg","Elise_VictoriousSkin.jpg","Elise_WitheredRoseSkin.jpg"]
     },
     {
-        "name": "Evelynn"
+        "name": "Evelynn",
+        "images": ["Evelynn_BloodMoonSkin.jpg","Evelynn_CovenSkin.jpg","Evelynn_KDAALLOUTSkin.jpg","Evelynn_KDASkin.jpg","Evelynn_MasqueradeSkin.jpg","Evelynn_OriginalSkin.jpg","Evelynn_PrestigeKDASkin.jpg","Evelynn_SafecrackerSkin.jpg","Evelynn_ShadowSkin.jpg","Evelynn_SoulFighterSkin.jpg","Evelynn_SpiritBlossomSkin.jpg","Evelynn_SugarRushSkin.jpg","Evelynn_TangoSkin.jpg"]
     },
     {
-        "name": "Ezreal"
+        "name": "Ezreal",
+        "images": ["Ezreal_AceofSpadesSkin.jpg","Ezreal_ArcadeSkin.jpg","Ezreal_BattleAcademiaSkin.jpg","Ezreal_DebonairSkin.jpg","Ezreal_ExplorerSkin.jpg","Ezreal_FaerieCourtSkin.jpg","Ezreal_FrostedSkin.jpg","Ezreal_NottinghamSkin.jpg","Ezreal_OriginalSkin.jpg","Ezreal_PajamaGuardianSkin.jpg","Ezreal_PorcelainProtectorSkin.jpg","Ezreal_PrestigePsyOpsSkin.jpg","Ezreal_PsyOpsSkin.jpg","Ezreal_PulsefireSkin.jpg","Ezreal_SSGSkin.jpg","Ezreal_StarGuardianSkin.jpg","Ezreal_StrikerSkin.jpg","Ezreal_TPASkin.jpg"]
     },
     {
-        "name": "Fiddlesticks"
+        "name": "Fiddlesticks",
+        "images": ["Fiddlesticks_BanditoSkin.jpg","Fiddlesticks_DarkCandySkin.jpg","Fiddlesticks_FiddleMeTimbersSkin.jpg","Fiddlesticks_OriginalSkin.jpg","Fiddlesticks_PraetorianSkin.jpg","Fiddlesticks_PumpkinheadSkin.jpg","Fiddlesticks_RisenSkin.jpg","Fiddlesticks_SpectralSkin.jpg","Fiddlesticks_StarNemesisSkin.jpg","Fiddlesticks_SurprisePartySkin.jpg","Fiddlesticks_UnionJackSkin.jpg"]
     },
     {
-        "name": "Fiora"
+        "name": "Fiora",
+        "images": ["Fiora_BewitchingSkin.jpg","Fiora_FaerieCourtSkin.jpg","Fiora_HeadmistressSkin.jpg","Fiora_HeartpiercerSkin.jpg","Fiora_iGSkin.jpg","Fiora_LunarBeastSkin.jpg","Fiora_NightravenSkin.jpg","Fiora_OriginalSkin.jpg","Fiora_PoolPartySkin.jpg","Fiora_PrestigeLunarBeastSkin.jpg","Fiora_PROJECTSkin.jpg","Fiora_PulsefireSkin.jpg","Fiora_RoyalGuardSkin.jpg","Fiora_SoaringSwordSkin.jpg"]
     },
     {
-        "name": "Fizz"
+        "name": "Fizz",
+        "images": ["Fizz_AstronautSkin.jpg","Fizz_AtlanteanSkin.jpg","Fizz_CottontailSkin.jpg","Fizz_FishermanSkin.jpg","Fizz_FuzzSkin.jpg","Fizz_LittleDevilSkin.jpg","Fizz_OmegaSquadSkin.jpg","Fizz_OriginalSkin.jpg","Fizz_PrestigeFuzzSkin.jpg","Fizz_SuperGalaxySkin.jpg","Fizz_TundraSkin.jpg","Fizz_VoidSkin.jpg"]
     },
     {
-        "name": "Galio"
+        "name": "Galio",
+        "images": ["Galio_BirdioSkin.jpg","Galio_CommandoSkin.jpg","Galio_DebonairSkin.jpg","Galio_DragonGuardianSkin.jpg","Galio_EnchantedSkin.jpg","Galio_GatekeeperSkin.jpg","Galio_HextechSkin.jpg","Galio_InfernalSkin.jpg","Galio_MythmakerSkin.jpg","Galio_OriginalSkin.jpg"]
     },
     {
-        "name": "Gangplank"
+        "name": "Gangplank",
+        "images": ["Gangplank_CaptainSkin.jpg","Gangplank_DreadnovaSkin.jpg","Gangplank_FPXSkin.jpg","Gangplank_GangplanktheBetrayerSkin.jpg","Gangplank_MinutemanSkin.jpg","Gangplank_OriginalSkin.jpg","Gangplank_PoolPartySkin.jpg","Gangplank_SailorSkin.jpg","Gangplank_SpecialForcesSkin.jpg","Gangplank_SpookySkin.jpg","Gangplank_SultanSkin.jpg","Gangplank_ToySoldierSkin.jpg"]
     },
     {
-        "name": "Garen"
+        "name": "Garen",
+        "images": ["Garen_BattleAcademiaSkin.jpg","Garen_CommandoSkin.jpg","Garen_DemaciaViceSkin.jpg","Garen_DesertTrooperSkin.jpg","Garen_DreadknightSkin.jpg","Garen_God-KingSkin.jpg","Garen_MechaKingdomsSkin.jpg","Garen_MythmakerSkin.jpg","Garen_OriginalSkin.jpg","Garen_PrestigeMechaKingdomsSkin.jpg","Garen_RogueAdmiralSkin.jpg","Garen_RuggedSkin.jpg","Garen_SanguineSkin.jpg","Garen_SteelLegionSkin.jpg","Garen_WarringKingdomsSkin.jpg"]
     },
     {
-        "name": "Gnar"
+        "name": "Gnar",
+        "images": ["Gnar_AstronautSkin.jpg","Gnar_DinoSkin.jpg","Gnar_ElderwoodSkin.jpg","Gnar_ElLeónSkin.jpg","Gnar_GentlemanSkin.jpg","Gnar_OriginalSkin.jpg","Gnar_SnowDaySkin.jpg","Gnar_SSGSkin.jpg","Gnar_SuperGalaxySkin.jpg"]
     },
     {
-        "name": "Gragas"
+        "name": "Gragas",
+        "images": ["Gragas_ArcticOpsSkin.jpg","Gragas_FnaticSkin.jpg","Gragas_Gragas,Esq.Skin.jpg","Gragas_GragasCaskbreakerSkin.jpg","Gragas_HillbillySkin.jpg","Gragas_OktoberfestSkin.jpg","Gragas_OriginalSkin.jpg","Gragas_SantaSkin.jpg","Gragas_ScubaSkin.jpg","Gragas_SpaceGrooveSkin.jpg","Gragas_SuperfanSkin.jpg","Gragas_VandalSkin.jpg","Gragas_WardenSkin.jpg"]
     },
     {
-        "name": "Graves"
+        "name": "Graves",
+        "images": ["Graves_BattleProfessorSkin.jpg","Graves_CrimeCitySkin.jpg","Graves_CutthroatSkin.jpg","Graves_EDGSkin.jpg","Graves_HiredGunSkin.jpg","Graves_JailbreakSkin.jpg","Graves_OriginalSkin.jpg","Graves_PoolPartySkin.jpg","Graves_PraetorianSkin.jpg","Graves_RiotSkin.jpg","Graves_SentinelSkin.jpg","Graves_SnowDaySkin.jpg","Graves_VictoriousSkin.jpg"]
     },
     {
-        "name": "Gwen"
+        "name": "Gwen",
+        "images": ["Gwen_CafeCutiesSkin.jpg","Gwen_OriginalSkin.jpg","Gwen_SoulFighterSkin.jpg","Gwen_SpaceGrooveSkin.jpg"]
     },
     {
-        "name": "Hecarim"
+        "name": "Hecarim",
+        "images": ["Hecarim_ArcadeSkin.jpg","Hecarim_ArcanaSkin.jpg","Hecarim_BloodKnightSkin.jpg","Hecarim_CosmicChargerSkin.jpg","Hecarim_ElderwoodSkin.jpg","Hecarim_HeadlessSkin.jpg","Hecarim_HighNoonSkin.jpg","Hecarim_LancerZeroSkin.jpg","Hecarim_OriginalSkin.jpg","Hecarim_ReaperSkin.jpg","Hecarim_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Heimerdinger"
+        "name": "Heimerdinger",
+        "images": ["Heimerdinger_AlienInvaderSkin.jpg","Heimerdinger_BlastZoneSkin.jpg","Heimerdinger_DragonTrainerSkin.jpg","Heimerdinger_HazmatSkin.jpg","Heimerdinger_HeimerstingerSkin.jpg","Heimerdinger_OriginalSkin.jpg","Heimerdinger_PiltoverCustomsSkin.jpg","Heimerdinger_PoolPartySkin.jpg","Heimerdinger_SnowmerdingerSkin.jpg"]
     },
     {
-        "name": "Illaoi"
+        "name": "Illaoi",
+        "images": ["Illaoi_CosmicInvokerSkin.jpg","Illaoi_OriginalSkin.jpg","Illaoi_ResistanceSkin.jpg","Illaoi_SnowMoonSkin.jpg","Illaoi_VoidBringerSkin.jpg"]
     },
     {
-        "name": "Irelia"
+        "name": "Irelia",
+        "images": ["Irelia_AviatorSkin.jpg","Irelia_DivineSwordSkin.jpg","Irelia_FrostbladeSkin.jpg","Irelia_HighNoonSkin.jpg","Irelia_iGSkin.jpg","Irelia_InfiltratorSkin.jpg","Irelia_MythmakerSkin.jpg","Irelia_NightbladeSkin.jpg","Irelia_OrderoftheLotusSkin.jpg","Irelia_OriginalSkin.jpg","Irelia_PrestigePROJECT(2022)Skin.jpg","Irelia_PrestigePROJECTSkin.jpg","Irelia_PROJECTSkin.jpg","Irelia_SentinelSkin.jpg"]
     },
     {
-        "name": "Ivern"
+        "name": "Ivern",
+        "images": ["Ivern_AstronautSkin.jpg","Ivern_CandyKingSkin.jpg","Ivern_DunkmasterSkin.jpg","Ivern_OldGodSkin.jpg","Ivern_OriginalSkin.jpg"]
     },
     {
-        "name": "Janna"
+        "name": "Janna",
+        "images": ["Janna_BattleQueenSkin.jpg","Janna_BewitchingSkin.jpg","Janna_CrystalRoseSkin.jpg","Janna_CyberHaloSkin.jpg","Janna_FnaticSkin.jpg","Janna_ForecastSkin.jpg","Janna_FrostQueenSkin.jpg","Janna_GuardianoftheSandsSkin.jpg","Janna_HextechSkin.jpg","Janna_OriginalSkin.jpg","Janna_PrestigeCyberHaloSkin.jpg","Janna_SacredSwordSkin.jpg","Janna_StarGuardianSkin.jpg","Janna_TempestSkin.jpg","Janna_VictoriousSkin.jpg"]
     },
     {
-        "name": "Jarvan_IV"
+        "name": "Jarvan_IV",
+        "altName": "Jarvan IV",
+        "images": ["Jarvan_IV_CommandoSkin.jpg","Jarvan_IV_DarkforgeSkin.jpg","Jarvan_IV_DarkStarSkin.jpg","Jarvan_IV_DragonslayerSkin.jpg","Jarvan_IV_FnaticSkin.jpg","Jarvan_IV_HextechSkin.jpg","Jarvan_IV_LunarBeastSkin.jpg","Jarvan_IV_NightbringerSkin.jpg","Jarvan_IV_OriginalSkin.jpg","Jarvan_IV_PoolPartySkin.jpg","Jarvan_IV_SSGSkin.jpg","Jarvan_IV_VictoriousSkin.jpg","Jarvan_IV_WarringKingdomsSkin.jpg","Jarvan_IV_Worlds2021Skin.jpg"]
     },
     {
-        "name": "Jax"
+        "name": "Jax",
+        "images": ["Jax_AnglerSkin.jpg","Jax_ConquerorSkin.jpg","Jax_EmpyreanSkin.jpg","Jax_GodStaffSkin.jpg","Jax_JaximusSkin.jpg","Jax_MechaKingdomsSkin.jpg","Jax_NemesisSkin.jpg","Jax_OriginalSkin.jpg","Jax_PAXSkin.jpg","Jax_PrestigeConquerorSkin.jpg","Jax_SKTT1Skin.jpg","Jax_TempleSkin.jpg","Jax_TheMightySkin.jpg","Jax_VandalSkin.jpg","Jax_WardenSkin.jpg"]
     },
     {
-        "name": "Jayce"
+        "name": "Jayce",
+        "images": ["Jayce_ArcaneSkin.jpg","Jayce_BattleAcademiaSkin.jpg","Jayce_DebonairSkin.jpg","Jayce_ForsakenSkin.jpg","Jayce_FullMetalSkin.jpg","Jayce_JayceBrighthammerSkin.jpg","Jayce_OriginalSkin.jpg","Jayce_ResistanceSkin.jpg","Jayce_ZenithGamesSkin.jpg","Rift_Quest_party_01.jpg"]
     },
     {
-        "name": "Jhin"
+        "name": "Jhin",
+        "images": ["Jhin_BloodMoonSkin.jpg","Jhin_DarkCosmicSkin.jpg","Jhin_DWGSkin.jpg","Jhin_EmpyreanSkin.jpg","Jhin_HighNoonSkin.jpg","Jhin_OriginalSkin.jpg","Jhin_PROJECTSkin.jpg","Jhin_ShanHaiScrollsSkin.jpg","Jhin_SKTT1Skin.jpg","Jhin_SoulFighterSkin.jpg"]
     },
     {
-        "name": "Jinx"
+        "name": "Jinx",
+        "images": ["Jinx_AmbitiousElfSkin.jpg","Jinx_ArcaneSkin.jpg","Jinx_BattleCatSkin.jpg","Jinx_FirecrackerSkin.jpg","Jinx_HeartseekerSkin.jpg","Jinx_MafiaSkin.jpg","Jinx_OdysseySkin.jpg","Jinx_OriginalSkin.jpg","Jinx_PrestigeBattleCatSkin.jpg","Jinx_PROJECTSkin.jpg","Jinx_StarGuardianSkin.jpg","Jinx_ZombieSlayerSkin.jpg"]
     },
     {
-        "name": "K'Sante"
+        "name": "K'Sante",
+        "images": ["K'Sante_EmpyreanSkin.jpg","K'Sante_OriginalSkin.jpg","K'Sante_PrestigeEmpyreanSkin.jpg"]
     },
     {
-        "name": "Kai'Sa"
+        "name": "Kai'Sa",
+        "images": ["Kai'Sa_ArcadeSkin.jpg","Kai'Sa_BulletAngelSkin.jpg","Kai'Sa_iGSkin.jpg","Kai'Sa_InkshadowSkin.jpg","Kai'Sa_KDAALLOUTSkin.jpg","Kai'Sa_KDASkin.jpg","Kai'Sa_LagoonDragonSkin.jpg","Kai'Sa_OriginalSkin.jpg","Kai'Sa_PrestigeKDAALLOUTSkin.jpg","Kai'Sa_PrestigeKDASkin.jpg","Kai'Sa_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Kalista"
+        "name": "Kalista",
+        "images": ["Kalista_BloodMoonSkin.jpg","Kalista_ChampionshipSkin.jpg","Kalista_FaerieCourtSkin.jpg","Kalista_MarauderSkin.jpg","Kalista_OriginalSkin.jpg","Kalista_SKTT1Skin.jpg"]
     },
     {
-        "name": "Karma"
+        "name": "Karma",
+        "images": ["Karma_BladestormSkin.jpg","Karma_ConquerorSkin.jpg","Karma_DarkStarSkin.jpg","Karma_DawnbringerSkin.jpg","Karma_FaerieQueenSkin.jpg","Karma_OdysseySkin.jpg","Karma_OrderoftheLotusSkin.jpg","Karma_OriginalSkin.jpg","Karma_RuinedSkin.jpg","Karma_SakuraSkin.jpg","Karma_SunGoddessSkin.jpg","Karma_TraditionalSkin.jpg","Karma_TranquilityDragonSkin.jpg","Karma_WardenSkin.jpg","Karma_WinterWonderSkin.jpg"]
     },
     {
-        "name": "Karthus"
+        "name": "Karthus",
+        "images": ["Karthus_ElderwoodSkin.jpg","Karthus_FnaticSkin.jpg","Karthus_GrimReaperSkin.jpg","Karthus_InfernalSkin.jpg","Karthus_KarthusLightsbaneSkin.jpg","Karthus_OriginalSkin.jpg","Karthus_PentakillLostChapterSkin.jpg","Karthus_PentakillSkin.jpg","Karthus_PhantomSkin.jpg","Karthus_StatueofKarthusSkin.jpg"]
     },
     {
-        "name": "Kassadin"
+        "name": "Kassadin",
+        "images": ["Kassadin_CosmicReaverSkin.jpg","Kassadin_CountSkin.jpg","Kassadin_DeepOneSkin.jpg","Kassadin_FestivalSkin.jpg","Kassadin_HarbingerSkin.jpg","Kassadin_HextechSkin.jpg","Kassadin_OriginalSkin.jpg","Kassadin_Pre-VoidSkin.jpg","Kassadin_ShockbladeSkin.jpg"]
     },
     {
-        "name": "Katarina"
+        "name": "Katarina",
+        "images": ["Katarina_BattleAcademiaSkin.jpg","Katarina_BattleQueenSkin.jpg","Katarina_BilgewaterSkin.jpg","Katarina_BloodMoonSkin.jpg","Katarina_DeathSwornSkin.jpg","Katarina_FaerieCourtSkin.jpg","Katarina_HighCommandSkin.jpg","Katarina_HighNoonSkin.jpg","Katarina_KittyCatSkin.jpg","Katarina_MercenarySkin.jpg","Katarina_OriginalSkin.jpg","Katarina_PrestigeFaerieCourtSkin.jpg","Katarina_PROJECTSkin.jpg","Katarina_RedCardSkin.jpg","Katarina_SandstormSkin.jpg","Katarina_SlayBelleSkin.jpg","Katarina_WarringKingdomsSkin.jpg"]
     },
     {
-        "name": "Kayle"
+        "name": "Kayle",
+        "images": ["Kayle_AetherWingSkin.jpg","Kayle_BattlebornSkin.jpg","Kayle_DragonslayerSkin.jpg","Kayle_ImmortalJourneySkin.jpg","Kayle_IronInquisitorSkin.jpg","Kayle_JudgmentSkin.jpg","Kayle_OriginalSkin.jpg","Kayle_PentakillLostChapterSkin.jpg","Kayle_PentakillSkin.jpg","Kayle_PsyOpsSkin.jpg","Kayle_RiotSkin.jpg","Kayle_SilverSkin.jpg","Kayle_Sun-EaterSkin.jpg","Kayle_TranscendedSkin.jpg","Kayle_ViridianSkin.jpg","kayona_zps6fc76ebc.jpg"]
     },
     {
-        "name": "Kayn"
+        "name": "Kayn",
+        "images": ["Kayn_NightbringerSkin.jpg","Kayn_OdysseySkin.jpg","Kayn_OriginalSkin.jpg","Kayn_PrestigeNightbringerSkin.jpg","Kayn_SnowMoonSkin.jpg","Kayn_SoulhunterSkin.jpg"]
     },
     {
-        "name": "Kennen"
+        "name": "Kennen",
+        "images": ["Kennen_ArcticOpsSkin.jpg","Kennen_AstronautSkin.jpg","Kennen_BloodMoonSkin.jpg","Kennen_DeadlySkin.jpg","Kennen_DWGSkin.jpg","Kennen_InfernalSkin.jpg","Kennen_KarateSkin.jpg","Kennen_KennenM.D.Skin.jpg","Kennen_OriginalSkin.jpg","Kennen_SuperSkin.jpg","Kennen_SwampMasterSkin.jpg"]
     },
     {
-        "name": "Kha'Zix"
+        "name": "Kha'Zix",
+        "images": ["Kha'Zix_ChampionshipSkin.jpg","Kha'Zix_DarkStarSkin.jpg","Kha'Zix_DeathBlossomSkin.jpg","Kha'Zix_GuardianoftheSandsSkin.jpg","Kha'Zix_LunarGuardianSkin.jpg","Kha'Zix_MechaSkin.jpg","Kha'Zix_OdysseySkin.jpg","Kha'Zix_OriginalSkin.jpg"]
     },
     {
-        "name": "Kindred"
+        "name": "Kindred",
+        "images": ["Kindred_DRXSkin.jpg","Kindred_OriginalSkin.jpg","Kindred_PorcelainSkin.jpg","Kindred_ShadowfireSkin.jpg","Kindred_SpiritBlossomSkin.jpg","Kindred_SuperGalaxySkin.jpg","Kindred_WoofandLambSkin.jpg"]
     },
     {
-        "name": "Kled"
+        "name": "Kled",
+        "images": ["Kled_CountKledulaSkin.jpg","Kled_Kibble-HeadSkin.jpg","Kled_MarauderSkin.jpg","Kled_OriginalSkin.jpg","Kled_SirSkin.jpg"]
     },
     {
-        "name": "Kog'Maw"
+        "name": "Kog'Maw",
+        "images": ["Kog'Maw_ArcanistSkin.jpg","Kog'Maw_BattlecastSkin.jpg","Kog'Maw_Bee'MawSkin.jpg","Kog'Maw_CaterpillarSkin.jpg","Kog'Maw_DeepSeaSkin.jpg","Kog'Maw_HextechSkin.jpg","Kog'Maw_JurassicSkin.jpg","Kog'Maw_LionDanceSkin.jpg","Kog'Maw_MonarchSkin.jpg","Kog'Maw_OriginalSkin.jpg","Kog'Maw_Pug'MawSkin.jpg","Kog'Maw_ReindeerSkin.jpg","Kog'Maw_ShanHaiScrollsSkin.jpg","Kog'Maw_SonoranSkin.jpg","Kog'Maw_Zap'MawSkin.jpg"]
     },
     {
-        "name": "LeBlanc"
+        "name": "LeBlanc",
+        "images": ["LeBlanc_BewitchingSkin.jpg","LeBlanc_ChampionshipSkin.jpg","LeBlanc_CovenSkin.jpg","LeBlanc_DebonairSkin.jpg","LeBlanc_ElderwoodSkin.jpg","LeBlanc_iGSkin.jpg","LeBlanc_MistletoeSkin.jpg","LeBlanc_OriginalSkin.jpg","LeBlanc_PrestigeCovenSkin.jpg","LeBlanc_PrestigiousSkin.jpg","LeBlanc_ProgramSkin.jpg","LeBlanc_RavenbornSkin.jpg","LeBlanc_WickedSkin.jpg"]
     },
     {
-        "name": "Lee_Sin"
+        "name": "Lee_Sin",
+        "altName": "Lee Sin",
+        "images": ["Lee_Sin_AcolyteSkin.jpg","Lee_Sin_DragonFistSkin.jpg","Lee_Sin_FPXSkin.jpg","Lee_Sin_GodFistSkin.jpg","Lee_Sin_KnockoutSkin.jpg","Lee_Sin_MuayThaiSkin.jpg","Lee_Sin_NightbringerSkin.jpg","Lee_Sin_OriginalSkin.jpg","Lee_Sin_PlaymakerSkin.jpg","Lee_Sin_PoolPartySkin.jpg","Lee_Sin_PrestigeNightbringer(2022)Skin.jpg","Lee_Sin_PrestigeNightbringerSkin.jpg","Lee_Sin_SKTT1Skin.jpg","Lee_Sin_StormDragonSkin.jpg","Lee_Sin_TraditionalSkin.jpg","Lee_Sin_ZenithGamesSkin.jpg"]
     },
     {
-        "name": "Leona"
+        "name": "Leona",
+        "images": ["Leona_BarbecueSkin.jpg","Leona_BattleAcademiaSkin.jpg","Leona_CrystalisMotusSkin.jpg","Leona_DebonairSkin.jpg","Leona_DefenderSkin.jpg","Leona_DWGSkin.jpg","Leona_HighNoonSkin.jpg","Leona_IronSolariSkin.jpg","Leona_LunarEclipseSkin.jpg","Leona_MechaKingdomsSkin.jpg","Leona_OriginalSkin.jpg","Leona_PoolPartySkin.jpg","Leona_PrestigeBattleAcademiaSkin.jpg","Leona_PROJECTSkin.jpg","Leona_SolarEclipseSkin.jpg","Leona_ValkyrieSkin.jpg"]
     },
     {
-        "name": "Lillia"
+        "name": "Lillia",
+        "images": ["Lillia_NightbringerSkin.jpg","Lillia_OriginalSkin.jpg","Lillia_ShanHaiScrollsSkin.jpg","Lillia_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Lissandra"
+        "name": "Lissandra",
+        "images": ["Lissandra_BladeQueenSkin.jpg","Lissandra_BloodstoneSkin.jpg","Lissandra_CovenSkin.jpg","Lissandra_DarkCosmicSkin.jpg","Lissandra_OriginalSkin.jpg","Lissandra_PorcelainSkin.jpg","Lissandra_PrestigePorcelainSkin.jpg","Lissandra_ProgramSkin.jpg","Lissandra_SpaceGrooveSkin.jpg"]
     },
     {
-        "name": "Lucian"
+        "name": "Lucian",
+        "images": ["Lucian_ArcanaSkin.jpg","Lucian_DemaciaViceSkin.jpg","Lucian_HeartseekerSkin.jpg","Lucian_HighNoonSkin.jpg","Lucian_HiredGunSkin.jpg","Lucian_OriginalSkin.jpg","Lucian_PrestigePulsefireSkin.jpg","Lucian_PROJECTSkin.jpg","Lucian_PulsefireSkin.jpg","Lucian_StrikePaladinSkin.jpg","Lucian_StrikerSkin.jpg","Lucian_VictoriousSkin.jpg"]
     },
     {
-        "name": "Lulu"
+        "name": "Lulu",
+        "images": ["Lulu_BittersweetSkin.jpg","Lulu_CosmicEnchantressSkin.jpg","Lulu_DragonTrainerSkin.jpg","Lulu_MonsterTamerSkin.jpg","Lulu_OriginalSkin.jpg","Lulu_PajamaGuardianSkin.jpg","Lulu_PoolPartySkin.jpg","Lulu_PrestigeSpaceGrooveSkin.jpg","Lulu_SpaceGrooveSkin.jpg","Lulu_StarGuardianSkin.jpg","Lulu_WickedSkin.jpg","Lulu_WinterWonderSkin.jpg"]
     },
     {
-        "name": "Lux"
+        "name": "Lux",
+        "images": ["Lux_BattleAcademiaSkin.jpg","Lux_CommandoSkin.jpg","Lux_CosmicSkin.jpg","Lux_DarkCosmicSkin.jpg","Lux_ElementalistSkin.jpg","Lux_EmpyreanSkin.jpg","Lux_ImperialSkin.jpg","Lux_LunarEmpressSkin.jpg","Lux_OriginalSkin.jpg","Lux_PajamaGuardianSkin.jpg","Lux_PorcelainSkin.jpg","Lux_PrestigeBattleAcademiaSkin.jpg","Lux_PrestigePorcelainSkin.jpg","Lux_SorceressSkin.jpg","Lux_SoulFighterSkin.jpg","Lux_SpaceGrooveSkin.jpg","Lux_SpellthiefSkin.jpg","Lux_StarGuardianSkin.jpg","Lux_SteelLegionSkin.jpg"]
     },
     {
-        "name": "Malphite"
+        "name": "Malphite",
+        "images": ["Malphite_CoralReefSkin.jpg","Malphite_DarkStarSkin.jpg","Malphite_FPXSkin.jpg","Malphite_GlacialSkin.jpg","Malphite_IronsideSkin.jpg","Malphite_LunarGuardianSkin.jpg","Malphite_MarbleSkin.jpg","Malphite_MechaSkin.jpg","Malphite_ObsidianSkin.jpg","Malphite_OdysseySkin.jpg","Malphite_OldGodSkin.jpg","Malphite_OriginalSkin.jpg","Malphite_PrestigeDarkStarSkin.jpg","Malphite_ShamrockSkin.jpg"]
     },
     {
-        "name": "Malzahar"
+        "name": "Malzahar",
+        "images": ["Malzahar_BattleBossSkin.jpg","Malzahar_BeezaharSkin.jpg","Malzahar_DebonairSkin.jpg","Malzahar_DjinnSkin.jpg","Malzahar_HextechSkin.jpg","Malzahar_OriginalSkin.jpg","Malzahar_OverlordSkin.jpg","Malzahar_ShadowPrinceSkin.jpg","Malzahar_SnowDaySkin.jpg","Malzahar_ThreeHonorsSkin.jpg","Malzahar_VizierSkin.jpg","Malzahar_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Maokai"
+        "name": "Maokai",
+        "images": ["Maokai_AstronautSkin.jpg","Maokai_CharredSkin.jpg","Maokai_DRXSkin.jpg","Maokai_FestiveSkin.jpg","Maokai_GoalkeeperSkin.jpg","Maokai_HauntedSkin.jpg","Maokai_MeowkaiSkin.jpg","Maokai_OriginalSkin.jpg","Maokai_TotemicSkin.jpg","Maokai_VictoriousSkin.jpg","Maokai_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Master_Yi"
+        "name": "Master_Yi",
+        "altName": "Master Yi",
+        "images": ["Master_Yi_AssassinSkin.jpg","Master_Yi_BloodMoonSkin.jpg","Master_Yi_ChosenSkin.jpg","Master_Yi_CosmicBladeSkin.jpg","Master_Yi_DebonairSkin.jpg","Master_Yi_EternalSwordYiSkin.jpg","Master_Yi_HeadhunterSkin.jpg","Master_Yi_HeadhunterSkin_Ch.jpg","Master_Yi_InkshadowSkin.jpg","Master_Yi_IoniaSkin.jpg","Master_Yi_OriginalSkin.jpg","Master_Yi_PrestigeSpiritBlossomSkin.jpg","Master_Yi_PROJECTYiSkin.jpg","Master_Yi_PsyOpsSkin.jpg","Master_Yi_SamuraiYiSkin.jpg","Master_Yi_SnowManYiSkin.jpg","Master_Yi_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Milio"
+        "name": "Milio",
+        "images": ["Milio_FaerieCourtSkin.jpg","Milio_OriginalSkin.jpg"]
     },
     {
-        "name": "Miss_Fortune"
+        "name": "Miss_Fortune",
+        "altName": "Miss Fortune",
+        "images": ["Miss_Fortune_ArcadeSkin.jpg","Miss_Fortune_BattleBunnySkin.jpg","Miss_Fortune_BewitchingSkin.jpg","Miss_Fortune_BrokenCovenantSkin.jpg","Miss_Fortune_CandyCaneSkin.jpg","Miss_Fortune_CaptainFortuneSkin.jpg","Miss_Fortune_CowgirlSkin.jpg","Miss_Fortune_GunGoddessSkin.jpg","Miss_Fortune_MafiaSkin.jpg","Miss_Fortune_OriginalSkin.jpg","Miss_Fortune_PajamaGuardianSkin.jpg","Miss_Fortune_PoolPartySkin.jpg","Miss_Fortune_PrestigeBewitchingSkin.jpg","Miss_Fortune_PrestigeBrokenCovenantSkin.jpg","Miss_Fortune_RoadWarriorSkin.jpg","Miss_Fortune_RuinedSkin.jpg","Miss_Fortune_SecretAgentSkin.jpg","Miss_Fortune_StarGuardianSkin.jpg","Miss_Fortune_WaterlooSkin.jpg"]
     },
     {
-        "name": "Mordekaiser"
+        "name": "Mordekaiser",
+        "images": ["Mordekaiser_AshenGraveknightSkin.jpg","Mordekaiser_DarkCrusaderSkin.jpg","Mordekaiser_DarkStarSkin.jpg","Mordekaiser_DragonKnightSkin.jpg","Mordekaiser_HighNoonSkin.jpg","Mordekaiser_InfernalSkin.jpg","Mordekaiser_KingofClubsSkin.jpg","Mordekaiser_LordSkin.jpg","Mordekaiser_OriginalSkin.jpg","Mordekaiser_PentakillLostChapterSkin.jpg","Mordekaiser_PentakillSkin.jpg","Mordekaiser_PROJECTSkin.jpg","vX0FfBW.jpg"]
     },
     {
-        "name": "Morgana"
+        "name": "Morgana",
+        "images": ["Morgana_BewitchingSkin.jpg","Morgana_BlackthornSkin.jpg","Morgana_BladeMistressSkin.jpg","Morgana_CovenSkin.jpg","Morgana_DawnbringerSkin.jpg","Morgana_ExiledSkin.jpg","Morgana_GhostBrideSkin.jpg","Morgana_LunarWraithSkin.jpg","Morgana_MajesticEmpressSkin.jpg","Morgana_OriginalSkin.jpg","Morgana_PrestigeBewitchingSkin.jpg","Morgana_SinfulSucculenceSkin.jpg","Morgana_SnowMoonSkin.jpg","Morgana_StarNemesisSkin.jpg","Morgana_VictoriousSkin.jpg"]
     },
     {
-        "name": "Naafiri"
+        "name": "Naafiri",
+        "images": ["Naafiri_OriginalSkin.jpg","Naafiri_SoulFighterSkin.jpg"]
     },
     {
-        "name": "Nami"
+        "name": "Nami",
+        "images": ["Nami_BewitchingSkin.jpg","Nami_CosmicDestinySkin.jpg","Nami_DeepSeaSkin.jpg","Nami_KoiSkin.jpg","Nami_OriginalSkin.jpg","Nami_PrestigeSpaceGrooveSkin.jpg","Nami_ProgramSkin.jpg","Nami_RiverSpiritSkin.jpg","Nami_SKTT1Skin.jpg","Nami_SpaceGrooveSkin.jpg","Nami_SplendidStaffSkin.jpg","Nami_UrftheNami-teeSkin.jpg"]
     },
     {
-        "name": "Nasus"
+        "name": "Nasus",
+        "images": ["Nasus_ArchdukeSkin.jpg","Nasus_ArmoredTitanSkin.jpg","Nasus_BattlecastSkin.jpg","Nasus_DreadknightSkin.jpg","Nasus_GalacticSkin.jpg","Nasus_InfernalSkin.jpg","Nasus_LunarGuardianSkin.jpg","Nasus_NightbringerSkin.jpg","Nasus_OriginalSkin.jpg","Nasus_PharaohSkin.jpg","Nasus_RiotK-9Skin.jpg","Nasus_SpaceGrooveSkin.jpg","Nasus_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Nautilus"
+        "name": "Nautilus",
+        "images": ["Nautilus_AbyssalSkin.jpg","Nautilus_AstroNautilusSkin.jpg","Nautilus_ConquerorSkin.jpg","Nautilus_FrightNightSkin.jpg","Nautilus_OriginalSkin.jpg","Nautilus_ShanHaiScrollsSkin.jpg","Nautilus_SubterraneanSkin.jpg","Nautilus_WardenSkin.jpg","Nautilus_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Neeko"
+        "name": "Neeko",
+        "images": ["Neeko_BewitchingSkin.jpg","Neeko_OriginalSkin.jpg","Neeko_PrestigeStarGuardianSkin.jpg","Neeko_ShanHaiScrollsSkin.jpg","Neeko_StarGuardianSkin.jpg","Neeko_WinterWonderSkin.jpg"]
     },
     {
-        "name": "Nidalee"
+        "name": "Nidalee",
+        "images": ["Nidalee_BewitchingSkin.jpg","Nidalee_ChallengerSkin.jpg","Nidalee_CosmicHuntressSkin.jpg","Nidalee_DawnbringerSkin.jpg","Nidalee_DWGSkin.jpg","Nidalee_FrenchMaidSkin.jpg","Nidalee_HeadhunterSkin.jpg","Nidalee_KittaleeSkin.jpg","Nidalee_LeopardSkin.jpg","Nidalee_OceanSongSkin.jpg","Nidalee_OriginalSkin.jpg","Nidalee_PharaohSkin.jpg","Nidalee_SnowBunnySkin.jpg","Nidalee_SuperGalaxySkin.jpg","Nidalee_WarringKingdomsSkin.jpg"]
     },
     {
-        "name": "Nilah"
+        "name": "Nilah",
+        "images": ["Nilah_OriginalSkin.jpg","Nilah_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Nocturne"
+        "name": "Nocturne",
+        "images": ["Nocturne_BrokenCovenantSkin.jpg","Nocturne_CursedRevenantSkin.jpg","Nocturne_EternumSkin.jpg","Nocturne_FrozenTerrorSkin.jpg","Nocturne_HauntingSkin.jpg","Nocturne_HextechSkin.jpg","Nocturne_OldGodSkin.jpg","Nocturne_OriginalSkin.jpg","Nocturne_RavagerSkin.jpg","Nocturne_VoidSkin.jpg"]
     },
     {
-        "name": "Nunu"
+        "name": "Nunu",
+        "images": ["Nunu_DemolisherSkin.jpg","Nunu_GrungySkin.jpg","Nunu_Nunu&BeelumpSkin.jpg","Nunu_NunuBotSkin.jpg","Nunu_OriginalSkin.jpg","Nunu_PapercraftSkin.jpg","Nunu_SasquatchSkin.jpg","Nunu_SpaceGrooveSkin.jpg","Nunu_TPASkin.jpg","Nunu_WorkshopSkin.jpg","Nunu_ZombieSkin.jpg"]
     },
     {
-        "name": "Olaf"
+        "name": "Olaf",
+        "images": ["Olaf_BrolafSkin.jpg","Olaf_ButcherSkin.jpg","Olaf_DragonslayerSkin.jpg","Olaf_ForsakenSkin.jpg","Olaf_GlacialSkin.jpg","Olaf_MarauderSkin.jpg","Olaf_OriginalSkin.jpg","Olaf_PentakillLostChapterSkin.jpg","Olaf_PentakillSkin.jpg","Olaf_SentinelSkin.jpg","Olaf_SKTT1Skin.jpg"]
     },
     {
-        "name": "Orianna"
+        "name": "Orianna",
+        "images": ["Orianna_BladecraftSkin.jpg","Orianna_DarkStarSkin.jpg","Orianna_GothicSkin.jpg","Orianna_HeartseekerSkin.jpg","Orianna_OrbeeannaSkin.jpg","Orianna_OriginalSkin.jpg","Orianna_PoolPartySkin.jpg","Orianna_SewnChaosSkin.jpg","Orianna_StarGuardianSkin.jpg","Orianna_TPASkin.jpg","Orianna_VictoriousSkin.jpg","Orianna_WinterWonderSkin.jpg"]
     },
     {
-        "name": "Ornn"
+        "name": "Ornn",
+        "images": ["Ornn_ElderwoodSkin.jpg","Ornn_OriginalSkin.jpg","Ornn_SpaceGrooveSkin.jpg","Ornn_ThunderLordSkin.jpg"]
     },
     {
-        "name": "Pantheon"
+        "name": "Pantheon",
+        "images": ["Pantheon_AshenConquerorSkin.jpg","Pantheon_BakerSkin.jpg","Pantheon_DragonslayerSkin.jpg","Pantheon_FullMetalSkin.jpg","Pantheon_GlaiveWarriorSkin.jpg","Pantheon_MyrmidonSkin.jpg","Pantheon_OriginalSkin.jpg","Pantheon_PerseusSkin.jpg","Pantheon_PrestigeAscendedSkin.jpg","Pantheon_PulsefireSkin.jpg","Pantheon_RuinedSkin.jpg","Pantheon_RuthlessSkin.jpg","Pantheon_ZombieSlayerSkin.jpg"]
     },
     {
-        "name": "Poppy"
+        "name": "Poppy",
+        "images": ["Poppy_AstronautSkin.jpg","Poppy_BattleRegaliaSkin.jpg","Poppy_BewitchingSkin.jpg","Poppy_BlacksmithSkin.jpg","Poppy_HextechSkin.jpg","Poppy_LollipoppySkin.jpg","Poppy_NoxusSkin.jpg","Poppy_OriginalSkin.jpg","Poppy_RagdollSkin.jpg","Poppy_ScarletHammerSkin.jpg","Poppy_SnowFawnSkin.jpg","Poppy_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Pyke"
+        "name": "Pyke",
+        "images": ["Pyke_AshenKnightSkin.jpg","Pyke_BloodMoonSkin.jpg","Pyke_EmpyreanSkin.jpg","Pyke_OriginalSkin.jpg","Pyke_PrestigeSoulFighterSkin.jpg","Pyke_PROJECTSkin.jpg","Pyke_PsyOpsSkin.jpg","Pyke_SandWraithSkin.jpg","Pyke_SentinelSkin.jpg","Pyke_SoulFighterSkin.jpg"]
     },
     {
-        "name": "Qiyana"
+        "name": "Qiyana",
+        "images": ["Qiyana_BattleBossSkin.jpg","Qiyana_BattleQueenSkin.jpg","Qiyana_LunarEmpressSkin.jpg","Qiyana_OriginalSkin.jpg","Qiyana_PrestigeTrueDamageSkin.jpg","Qiyana_ShockbladeSkin.jpg","Qiyana_TrueDamageSkin.jpg"]
     },
     {
-        "name": "Quinn"
+        "name": "Quinn",
+        "images": ["Quinn_CorsairSkin.jpg","Quinn_HeartseekerSkin.jpg","Quinn_OriginalSkin.jpg","Quinn_PhoenixSkin.jpg","Quinn_StarGuardianSkin.jpg","Quinn_WardenSkin.jpg","Quinn_WoadScoutSkin.jpg"]
     },
     {
-        "name": "Rakan"
+        "name": "Rakan",
+        "images": ["Rakan_ArcanaSkin.jpg","Rakan_BrokenCovenantSkin.jpg","Rakan_CosmicDawnSkin.jpg","Rakan_ElderwoodSkin.jpg","Rakan_iGSkin.jpg","Rakan_OriginalSkin.jpg","Rakan_SSGSkin.jpg","Rakan_StarGuardianSkin.jpg","Rakan_SweetheartSkin.jpg"]
     },
     {
-        "name": "Rammus"
+        "name": "Rammus",
+        "images": ["Rammus_AstronautSkin.jpg","Rammus_ChromeSkin.jpg","Rammus_FreljordSkin.jpg","Rammus_FullMetalSkin.jpg","Rammus_GuardianoftheSandsSkin.jpg","Rammus_HextechSkin.jpg","Rammus_KingSkin.jpg","Rammus_MoltenSkin.jpg","Rammus_NinjaSkin.jpg","Rammus_OriginalSkin.jpg","Rammus_SweeperSkin.jpg"]
     },
     {
-        "name": "Rek'Sai"
+        "name": "Rek'Sai",
+        "images": ["Rek'Sai_BlackfrostSkin.jpg","Rek'Sai_ElderwoodSkin.jpg","Rek'Sai_EternumSkin.jpg","Rek'Sai_OriginalSkin.jpg","Rek'Sai_PoolPartySkin.jpg"]
     },
     {
-        "name": "Rell"
+        "name": "Rell",
+        "images": ["Rell_BattleQueenSkin.jpg","Rell_OriginalSkin.jpg","Rell_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Renata_Glasc"
+        "name": "Renata_Glasc",
+        "altName": "Renata Glasc",
+        "images": ["Renata_Glasc_AdmiralGlascSkin.jpg","Renata_Glasc_FrightNightSkin.jpg","Renata_Glasc_OriginalSkin.jpg"]
     },
     {
-        "name": "Renekton"
+        "name": "Renekton",
+        "images": ["Renekton_BlackfrostSkin.jpg","Renekton_BloodfurySkin.jpg","Renekton_DawnbringerSkin.jpg","Renekton_GalacticSkin.jpg","Renekton_HextechSkin.jpg","Renekton_OriginalSkin.jpg","Renekton_OutbackSkin.jpg","Renekton_PoolPartySkin.jpg","Renekton_PrehistoricSkin.jpg","Renekton_PROJECTSkin.jpg","Renekton_RenektoySkin.jpg","Renekton_RuneWarsSkin.jpg","Renekton_ScorchedEarthSkin.jpg","Renekton_SKTT1Skin.jpg"]
     },
     {
-        "name": "Rengar"
+        "name": "Rengar",
+        "images": ["Rengar_GuardianoftheSandsSkin.jpg","Rengar_HeadhunterSkin.jpg","Rengar_MechaSkin.jpg","Rengar_NightHunterSkin.jpg","Rengar_OriginalSkin.jpg","Rengar_PrettyKittySkin.jpg","Rengar_SentinelSkin.jpg","Rengar_SSWSkin.jpg"]
     },
     {
-        "name": "Riven"
+        "name": "Riven",
+        "images": ["Riven_ArcadeSkin.jpg","Riven_BattleBunnyPrimeSkin.jpg","Riven_BattleBunnySkin.jpg","Riven_BrokenCovenantSkin.jpg","Riven_Championship2016Skin.jpg","Riven_ChampionshipSkin.jpg","Riven_CrimsonEliteSkin.jpg","Riven_DawnbringerSkin.jpg","Riven_DragonbladeSkin.jpg","Riven_OriginalSkin.jpg","Riven_PrestigeValiantSwordSkin.jpg","Riven_PulsefireSkin.jpg","Riven_RedeemedSkin.jpg","Riven_SentinelSkin.jpg","Riven_SpiritBlossomSkin.jpg","Riven_ValiantSwordSkin.jpg"]
     },
     {
-        "name": "Rumble"
+        "name": "Rumble",
+        "images": ["Rumble_BadlandsBaronSkin.jpg","Rumble_BilgeratSkin.jpg","Rumble_OriginalSkin.jpg","Rumble_RumbleintheJungleSkin.jpg","Rumble_SpaceGrooveSkin.jpg","Rumble_SuperGalaxySkin.jpg"]
     },
     {
-        "name": "Ryze"
+        "name": "Ryze",
+        "images": ["Ryze_ArcanaSkin.jpg","Ryze_ChampionshipSkin.jpg","Ryze_DarkCrystalSkin.jpg","Ryze_GuardianoftheSandsSkin.jpg","Ryze_OriginalSkin.jpg","Ryze_PirateSkin.jpg","Ryze_ProfessorSkin.jpg","Ryze_RyzeWhitebeardSkin.jpg","Ryze_SKTT1Skin.jpg","Ryze_TribalSkin.jpg","Ryze_TriumphantSkin.jpg","Ryze_UncleSkin.jpg","Ryze_YoungSkin.jpg","Ryze_ZombieSkin.jpg"]
     },
     {
-        "name": "Samira"
+        "name": "Samira",
+        "images": ["Samira_HighNoonSkin.jpg","Samira_OriginalSkin.jpg","Samira_PsyOpsSkin.jpg","Samira_SoulFighterSkin.jpg","Samira_SpaceGrooveSkin.jpg"]
     },
     {
-        "name": "Sejuani"
+        "name": "Sejuani",
+        "images": ["Rift_Quest_party_01.jpg","Sejuani_BearCavalrySkin.jpg","Sejuani_BeastHunterSkin.jpg","Sejuani_DarkriderSkin.jpg","Sejuani_FirecrackerSkin.jpg","Sejuani_HextechSkin.jpg","Sejuani_OriginalSkin.jpg","Sejuani_PoroRiderSkin.jpg","Sejuani_PROJECTSkin.jpg","Sejuani_SabretuskSkin.jpg","Sejuani_SejuaniDawnchaserSkin.jpg","Sejuani_SolarEclipseSkin.jpg","Sejuani_TraditionalSkin.jpg","Sejuani_VictoriousSkin.jpg"]
     },
     {
-        "name": "Senna"
+        "name": "Senna",
+        "images": ["Senna_BewitchingSkin.jpg","Senna_HighNoonSkin.jpg","Senna_LunarEclipseSkin.jpg","Senna_OriginalSkin.jpg","Senna_PrestigeLunarEclipseSkin.jpg","Senna_PrestigeTrueDamageSkin.jpg","Senna_PROJECTSkin.jpg","Senna_StarGuardianSkin.jpg","Senna_TrueDamageSkin.jpg"]
     },
     {
-        "name": "Seraphine"
+        "name": "Seraphine",
+        "images": ["Seraphine_FaerieCourtSkin.jpg","Seraphine_GracefulPhoenixSkin.jpg","Seraphine_KDAALLOUTIndieSkin.jpg","Seraphine_KDAALLOUTRisingStarSkin.jpg","Seraphine_KDAALLOUTSuperstarSkin.jpg","Seraphine_OceanSongSkin.jpg","Seraphine_OriginalSkin.jpg","Seraphine_PrestigeOceanSongSkin.jpg","Seraphine_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Sett"
+        "name": "Sett",
+        "images": ["Sett_FirecrackerSkin.jpg","Sett_MechaKingdomsSkin.jpg","Sett_ObsidianDragonSkin.jpg","Sett_OriginalSkin.jpg","Sett_PoolPartySkin.jpg","Sett_PrestigeObsidianDragonSkin.jpg","Sett_SoulFighterSkin.jpg","Sett_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Shaco"
+        "name": "Shaco",
+        "images": ["Shaco_ArcanistSkin.jpg","Shaco_AsylumSkin.jpg","Shaco_CrimeCityNightmareSkin.jpg","Shaco_DarkStarSkin.jpg","Shaco_MadHatterSkin.jpg","Shaco_MaskedSkin.jpg","Shaco_NutcrackoSkin.jpg","Shaco_OriginalSkin.jpg","Shaco_PrestigeSoulFighterSkin.jpg","Shaco_RoyalSkin.jpg","Shaco_SoulFighterSkin.jpg","Shaco_WildCardSkin.jpg","Shaco_WinterblessedSkin.jpg","Shaco_WorkshopSkin.jpg"]
     },
     {
-        "name": "Shen"
+        "name": "Shen",
+        "images": ["Shen_AshenGuardianSkin.jpg","Shen_BloodMoonSkin.jpg","Shen_FrozenSkin.jpg","Shen_InfernalSkin.jpg","Shen_OriginalSkin.jpg","Shen_PsyOpsSkin.jpg","Shen_PulsefireSkin.jpg","Shen_ShockbladeSkin.jpg","Shen_SurgeonSkin.jpg","Shen_TPASkin.jpg","Shen_WarlordSkin.jpg","Shen_YellowJacketSkin.jpg"]
     },
     {
-        "name": "Shyvana"
+        "name": "Shyvana",
+        "images": ["Shyvana_BoneclawSkin.jpg","Shyvana_ChampionshipSkin.jpg","Shyvana_DarkflameSkin.jpg","Shyvana_IceDrakeSkin.jpg","Shyvana_ImmortalJourneySkin.jpg","Shyvana_IronscaleSkin.jpg","Shyvana_OriginalSkin.jpg","Shyvana_RuinedSkin.jpg","Shyvana_SuperGalaxySkin.jpg"]
     },
     {
-        "name": "Singed"
+        "name": "Singed",
+        "images": ["Singed_AstronautSkin.jpg","Singed_AugmentedSkin.jpg","Singed_BeekeeperSkin.jpg","Singed_BlackScourgeSkin.jpg","Singed_HextechSkin.jpg","Singed_MadScientistSkin.jpg","Singed_OriginalSkin.jpg","Singed_ResistanceSkin.jpg","Singed_RiotSquadSkin.jpg","Singed_SnowDaySkin.jpg","Singed_SSWSkin.jpg","Singed_SurferSkin.jpg"]
     },
     {
-        "name": "Sion"
+        "name": "Sion",
+        "images": ["Sion_BarbarianSkin.jpg","Sion_BlackfrostSkin.jpg","Sion_HextechSkin.jpg","Sion_HighNoonSkin.jpg","Sion_LumberjackSkin.jpg","Sion_MechaZeroSkin.jpg","Sion_OriginalSkin.jpg","Sion_WarmongerSkin.jpg","Sion_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Sivir"
+        "name": "Sivir",
+        "images": ["Sivir_BanditSkin.jpg","Sivir_BloodMoonSkin.jpg","Sivir_CafeCutiesSkin.jpg","Sivir_HuntressSkin.jpg","Sivir_MythmakerSkin.jpg","Sivir_NeoPAXSkin.jpg","Sivir_OdysseySkin.jpg","Sivir_OriginalSkin.jpg","Sivir_PAXSkin.jpg","Sivir_PizzaDeliverySkin.jpg","Sivir_PrestigeMythmakerSkin.jpg","Sivir_SKTT1Skin.jpg","Sivir_SnowstormSkin.jpg","Sivir_SolarEclipseSkin.jpg","Sivir_SpectacularSkin.jpg","Sivir_VictoriousSkin.jpg","Sivir_WardenSkin.jpg","Sivir_WarriorPrincessSkin.jpg"]
     },
     {
-        "name": "Skarner"
+        "name": "Skarner",
+        "images": ["Skarner_BattlecastAlphaSkin.jpg","Skarner_CosmicStingSkin.jpg","Skarner_EarthruneSkin.jpg","Skarner_GuardianoftheSandsSkin.jpg","Skarner_OriginalSkin.jpg","Skarner_SandscourgeSkin.jpg"]
     },
     {
-        "name": "Sona"
+        "name": "Sona",
+        "images": ["Sona_ArcadeSkin.jpg","Sona_DJSkin.jpg","Sona_GuqinSkin.jpg","Sona_ImmortalJourneySkin.jpg","Sona_MuseSkin.jpg","Sona_OdysseySkin.jpg","Sona_OriginalSkin.jpg","Sona_PentakillLostChapterSkin.jpg","Sona_PentakillSkin.jpg","Sona_PrestigeImmortalJourneySkin.jpg","Sona_PsyOpsSkin.jpg","Sona_SilentNightSkin.jpg","Sona_StarGuardianSkin.jpg","Sona_SweetheartSkin.jpg"]
     },
     {
-        "name": "Soraka"
+        "name": "Soraka",
+        "images": ["Soraka_CafeCutiesSkin.jpg","Soraka_CelestineSkin.jpg","Soraka_DawnbringerSkin.jpg","Soraka_DivineSkin.jpg","Soraka_DryadSkin.jpg","Soraka_ImmortalJourneySkin.jpg","Soraka_NightbringerSkin.jpg","Soraka_OrderoftheBananaSkin.jpg","Soraka_OriginalSkin.jpg","Soraka_PajamaGuardianSkin.jpg","Soraka_PrestigeStarGuardianSkin.jpg","Soraka_ProgramSkin.jpg","Soraka_ReaperSkin.jpg","Soraka_SpiritBlossomSkin.jpg","Soraka_StarGuardianSkin.jpg","Soraka_WinterWonderSkin.jpg"]
     },
     {
-        "name": "Swain"
+        "name": "Swain",
+        "images": ["Swain_BilgewaterSkin.jpg","Swain_CrystalRoseSkin.jpg","Swain_DragonMasterSkin.jpg","Swain_HextechSkin.jpg","Swain_NorthernFrontSkin.jpg","Swain_OriginalSkin.jpg","Swain_TyrantSkin.jpg","Swain_WinterblessedSkin.jpg"]
     },
     {
-        "name": "Sylas"
+        "name": "Sylas",
+        "images": ["Sylas_AshenSlayerSkin.jpg","Sylas_BattleWolfSkin.jpg","Sylas_FreljordSkin.jpg","Sylas_LunarWraithSkin.jpg","Sylas_OriginalSkin.jpg","Sylas_PrestigePROJECTSkin.jpg","Sylas_PROJECTSkin.jpg"]
     },
     {
-        "name": "Syndra"
+        "name": "Syndra",
+        "images": ["Syndra_AtlanteanSkin.jpg","Syndra_BewitchingSkin.jpg","Syndra_JusticarSkin.jpg","Syndra_OriginalSkin.jpg","Syndra_PoolPartySkin.jpg","Syndra_PrestigeStarGuardianSkin.jpg","Syndra_QueenofDiamondsSkin.jpg","Syndra_SKTT1Skin.jpg","Syndra_SnowDaySkin.jpg","Syndra_SpiritBlossomSkin.jpg","Syndra_StarGuardianSkin.jpg","Syndra_WitheredRoseSkin.jpg"]
     },
     {
-        "name": "Tahm_Kench"
+        "name": "Tahm_Kench",
+        "altName": "Tahm Kench",
+        "images": ["Tahm_Kench_ArcanaSkin.jpg","Tahm_Kench_CoinEmperorSkin.jpg","Tahm_Kench_HighNoonSkin.jpg","Tahm_Kench_MasterChefSkin.jpg","Tahm_Kench_OriginalSkin.jpg","Tahm_Kench_ShanHaiScrollsSkin.jpg","Tahm_Kench_UrfKenchSkin.jpg"]
     },
     {
-        "name": "Taliyah"
+        "name": "Taliyah",
+        "images": ["Taliyah_FreljordSkin.jpg","Taliyah_OriginalSkin.jpg","Taliyah_PoolPartySkin.jpg","Taliyah_SSGSkin.jpg","Taliyah_StarGuardianSkin.jpg"]
     },
     {
-        "name": "Talon"
+        "name": "Talon",
+        "images": ["Talon_BloodMoonSkin.jpg","Talon_CrimsonEliteSkin.jpg","Talon_DragonbladeSkin.jpg","Talon_EnduringSwordSkin.jpg","Talon_HighNoonSkin.jpg","Talon_OriginalSkin.jpg","Talon_PrestigeHighNoonSkin.jpg","Talon_RenegadeSkin.jpg","Talon_SSWSkin.jpg","Talon_TalonBlackwoodSkin.jpg","Talon_WitheredRoseSkin.jpg"]
     },
     {
-        "name": "Taric"
+        "name": "Taric",
+        "images": ["Taric_ArmoroftheFifthAgeSkin.jpg","Taric_BloodstoneSkin.jpg","Taric_EmeraldSkin.jpg","Taric_OriginalSkin.jpg","Taric_PoolPartySkin.jpg","Taric_SpaceGrooveSkin.jpg","Taric_TaricLuminshieldSkin.jpg"]
     },
     {
-        "name": "Teemo"
+        "name": "Teemo",
+        "images": ["Teemo_AstronautSkin.jpg","Teemo_BadgerSkin.jpg","Teemo_BeemoSkin.jpg","Teemo_CottontailSkin.jpg","Teemo_FirecrackerSkin.jpg","Teemo_HappyElfSkin.jpg","Teemo_LittleDevilSkin.jpg","Teemo_OmegaSquadSkin.jpg","Teemo_OriginalSkin.jpg","Teemo_PandaSkin.jpg","Teemo_PrestigeSpiritBlossomSkin.jpg","Teemo_ReconSkin.jpg","Teemo_SpaceGrooveSkin.jpg","Teemo_SpiritBlossomSkin.jpg","Teemo_SuperSkin.jpg"]
     },
     {
-        "name": "Thresh"
+        "name": "Thresh",
+        "images": ["Thresh_BloodMoonSkin.jpg","Thresh_ChampionshipSkin.jpg","Thresh_DarkStarSkin.jpg","Thresh_DeepTerrorSkin.jpg","Thresh_FPXSkin.jpg","Thresh_HighNoonSkin.jpg","Thresh_LunarEmperorSkin.jpg","Thresh_OriginalSkin.jpg","Thresh_PrestigePulsefire(2022)Skin.jpg","Thresh_PrestigePulsefireSkin.jpg","Thresh_PulsefireSkin.jpg","Thresh_SpiritBlossomSkin.jpg","Thresh_SSWSkin.jpg","Thresh_SteelDragonSkin.jpg","Thresh_UnboundSkin.jpg"]
     },
     {
-        "name": "Tristana"
+        "name": "Tristana",
+        "images": ["Tristana_BewitchingSkin.jpg","Tristana_BuccaneerSkin.jpg","Tristana_DragonTrainerSkin.jpg","Tristana_EarnestElfSkin.jpg","Tristana_FirecrackerSkin.jpg","Tristana_FirefighterSkin.jpg","Tristana_GuerillaSkin.jpg","Tristana_HextechSkin.jpg","Tristana_LittleDemonSkin.jpg","Tristana_OmegaSquadSkin.jpg","Tristana_OriginalSkin.jpg","Tristana_PenguCosplaySkin.jpg","Tristana_RiotGirlSkin.jpg","Tristana_RocketGirlSkin.jpg","Tristana_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Trundle"
+        "name": "Trundle",
+        "images": ["Trundle_ConstableSkin.jpg","Trundle_DragonslayerSkin.jpg","Trundle_FrightNightSkin.jpg","Trundle_JunkyardSkin.jpg","Trundle_Lil'SluggerSkin.jpg","Trundle_OriginalSkin.jpg","Trundle_TraditionalSkin.jpg","Trundle_WorldbreakerSkin.jpg"]
     },
     {
-        "name": "Tryndamere"
+        "name": "Tryndamere",
+        "images": ["Tryndamere_BeastHunterSkin.jpg","Tryndamere_BloodMoonSkin.jpg","Tryndamere_ChemtechSkin.jpg","Tryndamere_DemonbladeSkin.jpg","Tryndamere_HighlandSkin.jpg","Tryndamere_KingSkin.jpg","Tryndamere_NightbringerSkin.jpg","Tryndamere_NightmareSkin.jpg","Tryndamere_OriginalSkin.jpg","Tryndamere_SultanSkin.jpg","Tryndamere_VikingSkin.jpg","Tryndamere_WarringKingdomsSkin.jpg"]
     },
     {
-        "name": "Twisted_Fate"
+        "name": "Twisted_Fate",
+        "altName": "Twisted Fate",
+        "images": ["Twisted_Fate_BloodMoonSkin.jpg","Twisted_Fate_CrimeCityNightmareSkin.jpg","Twisted_Fate_CutpurseSkin.jpg","Twisted_Fate_DWGSkin.jpg","Twisted_Fate_HighNoonSkin.jpg","Twisted_Fate_JackofHeartsSkin.jpg","Twisted_Fate_MusketeerSkin.jpg","Twisted_Fate_OdysseySkin.jpg","Twisted_Fate_OriginalSkin.jpg","Twisted_Fate_PAXSkin.jpg","Twisted_Fate_PulsefireSkin.jpg","Twisted_Fate_RedCardSkin.jpg","Twisted_Fate_SpaceGrooveSkin.jpg","Twisted_Fate_TangoSkin.jpg","Twisted_Fate_TheMagnificentSkin.jpg","Twisted_Fate_UnderworldSkin.jpg"]
     },
     {
-        "name": "Twitch"
+        "name": "Twitch",
+        "images": ["Twitch_DragonslayerSkin.jpg","Twitch_GangsterSkin.jpg","Twitch_HighNoonSkin.jpg","Twitch_IceKingSkin.jpg","Twitch_KingpinSkin.jpg","Twitch_MedievalSkin.jpg","Twitch_OmegaSquadSkin.jpg","Twitch_OriginalSkin.jpg","Twitch_PickpocketSkin.jpg","Twitch_SSWSkin.jpg","Twitch_TwitchShadowfootSkin.jpg","Twitch_VandalSkin.jpg","Twitch_WhistlerVillageSkin.jpg"]
     },
     {
-        "name": "Udyr"
+        "name": "Udyr",
+        "images": ["Udyr_BlackBeltSkin.jpg","Udyr_DefinitelyNotSkin.jpg","Udyr_DragonOracleSkin.jpg","Udyr_InkshadowSkin.jpg","Udyr_OriginalSkin.jpg","Udyr_PrimalSkin.jpg","Udyr_SpiritGuardSkin.jpg"]
     },
     {
-        "name": "Urgot"
+        "name": "Urgot",
+        "images": ["Urgot_BattlecastSkin.jpg","Urgot_ButcherSkin.jpg","Urgot_FrightNightSkin.jpg","Urgot_GiantEnemyCrabgotSkin.jpg","Urgot_HighNoonSkin.jpg","Urgot_OriginalSkin.jpg","Urgot_PajamaGuardianCosplaySkin.jpg"]
     },
     {
-        "name": "Varus"
+        "name": "Varus",
+        "images": ["Varus_ArclightSkin.jpg","Varus_ArcticOpsSkin.jpg","Varus_BlightCrystalSkin.jpg","Varus_ConquerorSkin.jpg","Varus_CosmicHunterSkin.jpg","Varus_DarkStarSkin.jpg","Varus_HeartseekerSkin.jpg","Varus_HighNoonSkin.jpg","Varus_InfernalSkin.jpg","Varus_OriginalSkin.jpg","Varus_PROJECTSkin.jpg","Varus_SnowMoonSkin.jpg","Varus_VarusSwiftboltSkin.jpg"]
     },
     {
-        "name": "Vayne"
+        "name": "Vayne",
+        "images": ["Vayne_ArclightSkin.jpg","Vayne_AristocratSkin.jpg","Vayne_BattleBatSkin.jpg","Vayne_DawnbringerSkin.jpg","Vayne_DragonslayerSkin.jpg","Vayne_FirecrackerSkin.jpg","Vayne_FPXSkin.jpg","Vayne_HeartseekerSkin.jpg","Vayne_OriginalSkin.jpg","Vayne_PrestigeFirecracker(2022)Skin.jpg","Vayne_PrestigeFirecrackerSkin.jpg","Vayne_PROJECTSkin.jpg","Vayne_SentinelSkin.jpg","Vayne_SKTT1Skin.jpg","Vayne_SoulstealerSkin.jpg","Vayne_SpiritBlossomSkin.jpg","Vayne_VindicatorSkin.jpg"]
     },
     {
-        "name": "Veigar"
+        "name": "Veigar",
+        "images": ["Veigar_AstronautSkin.jpg","Veigar_BadSantaSkin.jpg","Veigar_BaronVonSkin.jpg","Veigar_CurlingSkin.jpg","Veigar_ElderwoodSkin.jpg","Veigar_FinalBossSkin.jpg","Veigar_FuryhornCosplaySkin.jpg","Veigar_LeprechaunSkin.jpg","Veigar_MonsterTamerSkin.jpg","Veigar_OmegaSquadSkin.jpg","Veigar_OriginalSkin.jpg","Veigar_SuperbVillainSkin.jpg","Veigar_VeigarGreybeardSkin.jpg","Veigar_WhiteMageSkin.jpg"]
     },
     {
-        "name": "Vel'Koz"
+        "name": "Vel'Koz",
+        "images": ["Vel'Koz_ArclightSkin.jpg","Vel'Koz_BattlecastSkin.jpg","Vel'Koz_BlackfrostSkin.jpg","Vel'Koz_DefinitelyNotSkin.jpg","Vel'Koz_InfernalSkin.jpg","Vel'Koz_OriginalSkin.jpg"]
     },
     {
-        "name": "Vex"
+        "name": "Vex",
+        "images": ["Vex_DawnbringerSkin.jpg","Vex_EmpyreanSkin.jpg","Vex_OriginalSkin.jpg"]
     },
     {
-        "name": "Vi"
+        "name": "Vi",
+        "images": ["Vi_ArcaneSkin.jpg","Vi_DebonairSkin.jpg","Vi_DemonSkin.jpg","Vi_HeartacheSkin.jpg","Vi_HeartacheSkin_Censored.jpg","Vi_HeartbreakerSkin.jpg","Vi_NeonStrikeSkin.jpg","Vi_OfficerSkin.jpg","Vi_OriginalSkin.jpg","Vi_PROJECTSkin.jpg","Vi_PsyOpsSkin.jpg","Vi_WarringKingdomsSkin.jpg"]
     },
     {
-        "name": "Viego"
+        "name": "Viego",
+        "images": ["Viego_DissonanceofPentakillSkin.jpg","Viego_EDGSkin.jpg","Viego_KingSkin.jpg","Viego_LunarBeastSkin.jpg","Viego_OriginalSkin.jpg","Viego_SoulFighterSkin.jpg"]
     },
     {
-        "name": "Viktor"
+        "name": "Viktor",
+        "images": ["Viktor_CreatorSkin.jpg","Viktor_DeathSwornSkin.jpg","Viktor_FullMachineSkin.jpg","Viktor_HighNoonSkin.jpg","Viktor_OriginalSkin.jpg","Viktor_PrototypeSkin.jpg","Viktor_PsyOpsSkin.jpg"]
     },
     {
-        "name": "Vladimir"
+        "name": "Vladimir",
+        "images": ["Vladimir_AcademySkin.jpg","Vladimir_BloodLordSkin.jpg","Vladimir_BrokenCovenantSkin.jpg","Vladimir_CafeCutiesSkin.jpg","Vladimir_CosmicDevourerSkin.jpg","Vladimir_CountSkin.jpg","Vladimir_DarkWatersSkin.jpg","Vladimir_MarquisSkin.jpg","Vladimir_NightbringerSkin.jpg","Vladimir_NosferatuSkin.jpg","Vladimir_OriginalSkin.jpg","Vladimir_SoulstealerSkin.jpg","Vladimir_VandalSkin.jpg"]
     },
     {
-        "name": "Volibear"
+        "name": "Volibear",
+        "images": ["Volibear_CaptainSkin.jpg","Volibear_DualityDragonSkin.jpg","Volibear_ElRayoSkin.jpg","Volibear_InkshadowSkin.jpg","Volibear_NorthernStormSkin.jpg","Volibear_OriginalSkin.jpg","Volibear_PrestigeDualityDragonSkin.jpg","Volibear_RuneguardSkin.jpg","Volibear_TheThousand-PiercedBearSkin.jpg","Volibear_ThunderLordSkin.jpg"]
     },
     {
-        "name": "Warwick"
+        "name": "Warwick",
+        "images": ["Warwick_BigBadSkin.jpg","Warwick_FeralSkin.jpg","Warwick_FirefangSkin.jpg","Warwick_GreySkin.jpg","Warwick_HyenaSkin.jpg","Warwick_LunarGuardianSkin.jpg","Warwick_MarauderSkin.jpg","Warwick_OldGodSkin.jpg","Warwick_OriginalSkin.jpg","Warwick_PrestigeWinterblessedSkin.jpg","Warwick_PROJECTSkin.jpg","Warwick_TundraHunterSkin.jpg","Warwick_UrfwickSkin.jpg","Warwick_WinterblessedSkin.jpg"]
     },
     {
-        "name": "Wukong"
+        "name": "Wukong",
+        "images": ["Wukong_BattleAcademiaSkin.jpg","Wukong_ElderwoodSkin.jpg","Wukong_GeneralSkin.jpg","Wukong_JadeDragonSkin.jpg","Wukong_LancerStratusSkin.jpg","Wukong_OriginalSkin.jpg","Wukong_RadiantSkin.jpg","Wukong_UnderworldSkin.jpg","Wukong_VolcanicSkin.jpg"]
     },
     {
-        "name": "Xayah"
+        "name": "Xayah",
+        "images": ["Xayah_ArcanaSkin.jpg","Xayah_BravePhoenixSkin.jpg","Xayah_BrokenCovenantSkin.jpg","Xayah_CosmicDuskSkin.jpg","Xayah_ElderwoodSkin.jpg","Xayah_OriginalSkin.jpg","Xayah_PrestigeBravePhoenixSkin.jpg","Xayah_SSGSkin.jpg","Xayah_StarGuardianSkin.jpg","Xayah_SweetheartSkin.jpg"]
     },
     {
-        "name": "Xerath"
+        "name": "Xerath",
+        "images": ["Xerath_ArcanaSkin.jpg","Xerath_AstronautSkin.jpg","Xerath_BattlecastSkin.jpg","Xerath_DarkStarSkin.jpg","Xerath_GuardianoftheSandsSkin.jpg","Xerath_OriginalSkin.jpg","Xerath_RunebornSkin.jpg","Xerath_ScorchedEarthSkin.jpg"]
     },
     {
-        "name": "Xin_Zhao"
+        "name": "Xin_Zhao",
+        "altName": "Xin Zhao",
+        "images": ["Xin_Zhao_CommandoSkin.jpg","Xin_Zhao_CosmicDefenderSkin.jpg","Xin_Zhao_DragonslayerSkin.jpg","Xin_Zhao_FirecrackerSkin.jpg","Xin_Zhao_ImperialSkin.jpg","Xin_Zhao_MarauderSkin.jpg","Xin_Zhao_OriginalSkin.jpg","Xin_Zhao_SecretAgentSkin.jpg","Xin_Zhao_VisceroSkin.jpg","Xin_Zhao_WarringKingdomsSkin.jpg","Xin_Zhao_WingedHussarSkin.jpg"]
     },
     {
-        "name": "Yasuo"
+        "name": "Yasuo",
+        "images": ["Yasuo_BattleBossSkin.jpg","Yasuo_BloodMoonSkin.jpg","Yasuo_DreamDragonSkin.jpg","Yasuo_HighNoonSkin.jpg","Yasuo_InkshadowSkin.jpg","Yasuo_NightbringerSkin.jpg","Yasuo_OdysseySkin.jpg","Yasuo_OriginalSkin.jpg","Yasuo_PrestigeInkshadowSkin.jpg","Yasuo_PrestigeTrueDamageSkin.jpg","Yasuo_PROJECTSkin.jpg","Yasuo_SeaDogSkin.jpg","Yasuo_SpiritBlossomSkin.jpg","Yasuo_TrueDamageSkin.jpg","Yasuo_TruthDragonSkin.jpg"]
     },
     {
-        "name": "Yone"
+        "name": "Yone",
+        "images": ["Yone_BattleAcademiaSkin.jpg","Yone_DawnbringerSkin.jpg","Yone_InkshadowSkin.jpg","Yone_OceanSongSkin.jpg","Yone_OriginalSkin.jpg","Yone_SpiritBlossomSkin.jpg"]
     },
     {
-        "name": "Yorick"
+        "name": "Yorick",
+        "images": ["Yorick_ArclightSkin.jpg","Yorick_MeowrickSkin.jpg","Yorick_OriginalSkin.jpg","Yorick_PentakillLostChapterSkin.jpg","Yorick_PentakillSkin.jpg","Yorick_ResistanceSkin.jpg","Yorick_SpiritBlossomSkin.jpg","Yorick_UndertakerSkin.jpg"]
     },
     {
-        "name": "Yuumi"
+        "name": "Yuumi",
+        "images": ["Yuumi_BattlePrincipalSkin.jpg","Yuumi_BewitchingSkin.jpg","Yuumi_EDGSkin.jpg","Yuumi_HeartseekerSkin.jpg","Yuumi_OriginalSkin.jpg","Yuumi_ShibaSkin.jpg","Yuumi_YuubeeSkin.jpg"]
     },
     {
-        "name": "Zac"
+        "name": "Zac",
+        "images": ["Zac_BattlecastSkin.jpg","Zac_EmpyreanSkin.jpg","Zac_OriginalSkin.jpg","Zac_PoolPartySkin.jpg","Zac_SKTT1Skin.jpg","Zac_SpecialWeaponSkin.jpg"]
     },
     {
-        "name": "Zed"
+        "name": "Zed",
+        "images": ["Zed_ChampionshipSkin.jpg","Zed_DeathSwornSkin.jpg","Zed_DebonairSkin.jpg","Zed_EmpyreanSkin.jpg","Zed_GalaxySlayerSkin.jpg","Zed_OriginalSkin.jpg","Zed_PrestigePROJECTSkin.jpg","Zed_PROJECTSkin.jpg","Zed_PsyOpsSkin.jpg","Zed_ShockbladeSkin.jpg","Zed_SKTT1Skin.jpg"]
     },
     {
-        "name": "Zeri"
+        "name": "Zeri",
+        "images": ["Zeri_ImmortalJourneySkin.jpg","Zeri_OceanSongSkin.jpg","Zeri_OriginalSkin.jpg","Zeri_WitheredRoseSkin.jpg"]
     },
     {
-        "name": "Ziggs"
+        "name": "Ziggs",
+        "images": ["Ziggs_BattleBossSkin.jpg","Ziggs_BZZZiggsSkin.jpg","Ziggs_HextechSkin.jpg","Ziggs_MadScientistSkin.jpg","Ziggs_MajorSkin.jpg","Ziggs_MasterArcanistSkin.jpg","Ziggs_OdysseySkin.jpg","Ziggs_OriginalSkin.jpg","Ziggs_PoolPartySkin.jpg","Ziggs_SnowDaySkin.jpg","Ziggs_SugarRushSkin.jpg"]
     },
     {
-        "name": "Zilean"
+        "name": "Zilean",
+        "images": ["Zilean_BloodMoonSkin.jpg","Zilean_GroovySkin.jpg","Zilean_OldSaintSkin.jpg","Zilean_OriginalSkin.jpg","Zilean_ShurimaDesertSkin.jpg","Zilean_SugarRushSkin.jpg","Zilean_TimeMachineSkin.jpg","Zilean_WinterblessedSkin.jpg"]
     },
     {
-        "name": "Zoe"
+        "name": "Zoe",
+        "images": ["Zoe_ArcanistSkin.jpg","Zoe_CyberPopSkin.jpg","Zoe_EDGSkin.jpg","Zoe_OriginalSkin.jpg","Zoe_PoolPartySkin.jpg","Zoe_PrestigeArcanistSkin.jpg","Zoe_StarGuardianSkin.jpg","Zoe_WinterblessedSkin.jpg"]
     },
     {
-        "name": "Zyra"
+        "name": "Zyra",
+        "images": ["Zyra_CovenSkin.jpg","Zyra_CrimeCityNightmareSkin.jpg","Zyra_CrystalRoseSkin.jpg","Zyra_DragonSorceressSkin.jpg","Zyra_HauntedSkin.jpg","Zyra_MythmakerSkin.jpg","Zyra_OriginalSkin.jpg","Zyra_PrestigeCovenSkin.jpg","Zyra_SKTT1Skin.jpg","Zyra_WildfireSkin.jpg"]
     }
 ]
