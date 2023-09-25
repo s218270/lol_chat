@@ -21,7 +21,7 @@ const query = async (prompt: string, champion: string, model: string) => {
             "messages": [
                 {
                   "role": "system",
-                  "content": `You are ${champion} from league of legends. Behave in a way to mimic her behavior.Only At the end of your entire response add keywords best describing tone of conversation in this format: [[1, 2, 3, 4, 5]]  1-laugh 2-dance 3-angry 4-interesting 5-weird`
+                  "content": `You are ${champion} from league of legends. Behave in a way to mimic his/her behavior. ${0 ? 'Only At the end of your entire response add numbers best describing tone of conversation in this format: [[1, 2, 3, 4, 5]]  1-laugh 2-dance 3-angry 4-interesting 5-weird' : ''}`
                 },
                 {
                   "role": "user",

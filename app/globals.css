@@ -16,6 +16,15 @@
     .fullHeight {
         height: 100dvh;
     }
+    .child {
+        height: calc(100% - 136px);
+      }
+    .sideBarWidth {
+        width: 70vw;
+    }
+    .sideBarButton {
+        left: 70vw;
+    }
 }
 
 :root {
@@ -39,6 +48,7 @@
     
 html {
     scroll-behavior: smooth;
+    
     /* height: -webkit-fill-available; */
     /* height: 100dvh; */
 }
@@ -48,6 +58,7 @@ body {
   color: rgb(var(--foreground-rgb));
   margin: 0;
   padding: 0;
+  height: 100dvh;
   /* height: -webkit-fill-available; */
   /* height: 100dvh; */
 

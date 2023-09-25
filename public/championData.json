@@ -50,7 +50,7 @@
     },
     {
         "name": "Bard",
-        "images": ["Bard_AstronautSkin.jpg","Bard_BardBardSkin.jpg","Bard_CafeCutiesSkin.jpg","Bard_ElderwoodSkin.jpg","Bard_OriginalSkin.jpg","Bard_ShanHaiScrollsSkin.jpg","Bard_SnowDaySkin.jpg","Rift_Quest_party_01.jpg"]
+        "images": ["Bard_AstronautSkin.jpg","Bard_BardBardSkin.jpg","Bard_CafeCutiesSkin.jpg","Bard_ElderwoodSkin.jpg","Bard_OriginalSkin.jpg","Bard_ShanHaiScrollsSkin.jpg","Bard_SnowDaySkin.jpg"]
     },
     {
         "name": "Bel'Veth",
@@ -70,7 +70,7 @@
     },
     {
         "name": "Caitlyn",
-        "images": ["Caitlyn_ArcadeSkin.jpg","Caitlyn_ArcaneSkin.jpg","Caitlyn_ArcticWarfareSkin.jpg","Caitlyn_BattleAcademiaSkin.jpg","Caitlyn_DRXSkin.jpg","Caitlyn_HeadhunterSkin.jpg","Caitlyn_HeartthrobSkin.jpg","Caitlyn_HeartthrobSkin_Censored.jpg","Caitlyn_LunarWraithSkin.jpg","Caitlyn_OfficerSkin.jpg","Caitlyn_OriginalSkin.jpg","Caitlyn_PoolPartySkin.jpg","Caitlyn_PrestigeArcadeSkin.jpg","Caitlyn_PulsefireSkin.jpg","Caitlyn_ResistanceSkin.jpg","Caitlyn_SafariSkin.jpg","Caitlyn_SheriffSkin.jpg","Caitlyn_SnowMoonSkin.jpg"]
+        "images": ["Caitlyn_ArcadeSkin.jpg","Caitlyn_ArcaneSkin.jpg","Caitlyn_ArcticWarfareSkin.jpg","Caitlyn_BattleAcademiaSkin.jpg","Caitlyn_DRXSkin.jpg","Caitlyn_HeadhunterSkin.jpg","Caitlyn_HeartthrobSkin.jpg","Caitlyn_LunarWraithSkin.jpg","Caitlyn_OfficerSkin.jpg","Caitlyn_OriginalSkin.jpg","Caitlyn_PoolPartySkin.jpg","Caitlyn_PrestigeArcadeSkin.jpg","Caitlyn_PulsefireSkin.jpg","Caitlyn_ResistanceSkin.jpg","Caitlyn_SafariSkin.jpg","Caitlyn_SheriffSkin.jpg","Caitlyn_SnowMoonSkin.jpg"]
     },
     {
         "name": "Camille",
@@ -196,7 +196,7 @@
     },
     {
         "name": "Jayce",
-        "images": ["Jayce_ArcaneSkin.jpg","Jayce_BattleAcademiaSkin.jpg","Jayce_DebonairSkin.jpg","Jayce_ForsakenSkin.jpg","Jayce_FullMetalSkin.jpg","Jayce_JayceBrighthammerSkin.jpg","Jayce_OriginalSkin.jpg","Jayce_ResistanceSkin.jpg","Jayce_ZenithGamesSkin.jpg","Rift_Quest_party_01.jpg"]
+        "images": ["Jayce_ArcaneSkin.jpg","Jayce_BattleAcademiaSkin.jpg","Jayce_DebonairSkin.jpg","Jayce_ForsakenSkin.jpg","Jayce_FullMetalSkin.jpg","Jayce_JayceBrighthammerSkin.jpg","Jayce_OriginalSkin.jpg","Jayce_ResistanceSkin.jpg","Jayce_ZenithGamesSkin.jpg"]
     },
     {
         "name": "Jhin",
@@ -236,7 +236,7 @@
     },
     {
         "name": "Kayle",
-        "images": ["Kayle_AetherWingSkin.jpg","Kayle_BattlebornSkin.jpg","Kayle_DragonslayerSkin.jpg","Kayle_ImmortalJourneySkin.jpg","Kayle_IronInquisitorSkin.jpg","Kayle_JudgmentSkin.jpg","Kayle_OriginalSkin.jpg","Kayle_PentakillLostChapterSkin.jpg","Kayle_PentakillSkin.jpg","Kayle_PsyOpsSkin.jpg","Kayle_RiotSkin.jpg","Kayle_SilverSkin.jpg","Kayle_Sun-EaterSkin.jpg","Kayle_TranscendedSkin.jpg","Kayle_ViridianSkin.jpg","kayona_zps6fc76ebc.jpg"]
+        "images": ["Kayle_AetherWingSkin.jpg","Kayle_BattlebornSkin.jpg","Kayle_DragonslayerSkin.jpg","Kayle_ImmortalJourneySkin.jpg","Kayle_IronInquisitorSkin.jpg","Kayle_JudgmentSkin.jpg","Kayle_OriginalSkin.jpg","Kayle_PentakillLostChapterSkin.jpg","Kayle_PentakillSkin.jpg","Kayle_PsyOpsSkin.jpg","Kayle_RiotSkin.jpg","Kayle_SilverSkin.jpg","Kayle_Sun-EaterSkin.jpg","Kayle_TranscendedSkin.jpg","Kayle_ViridianSkin.jpg"]
     },
     {
         "name": "Kayn",
@@ -310,7 +310,7 @@
     {
         "name": "Master_Yi",
         "altName": "Master Yi",
-        "images": ["Master_Yi_AssassinSkin.jpg","Master_Yi_BloodMoonSkin.jpg","Master_Yi_ChosenSkin.jpg","Master_Yi_CosmicBladeSkin.jpg","Master_Yi_DebonairSkin.jpg","Master_Yi_EternalSwordYiSkin.jpg","Master_Yi_HeadhunterSkin.jpg","Master_Yi_HeadhunterSkin_Ch.jpg","Master_Yi_InkshadowSkin.jpg","Master_Yi_IoniaSkin.jpg","Master_Yi_OriginalSkin.jpg","Master_Yi_PrestigeSpiritBlossomSkin.jpg","Master_Yi_PROJECTYiSkin.jpg","Master_Yi_PsyOpsSkin.jpg","Master_Yi_SamuraiYiSkin.jpg","Master_Yi_SnowManYiSkin.jpg","Master_Yi_SpiritBlossomSkin.jpg"]
+        "images": ["Master_Yi_AssassinSkin.jpg","Master_Yi_BloodMoonSkin.jpg","Master_Yi_ChosenSkin.jpg","Master_Yi_CosmicBladeSkin.jpg","Master_Yi_DebonairSkin.jpg","Master_Yi_EternalSwordYiSkin.jpg","Master_Yi_HeadhunterSkin.jpg","Master_Yi_InkshadowSkin.jpg","Master_Yi_IoniaSkin.jpg","Master_Yi_OriginalSkin.jpg","Master_Yi_PrestigeSpiritBlossomSkin.jpg","Master_Yi_PROJECTYiSkin.jpg","Master_Yi_PsyOpsSkin.jpg","Master_Yi_SamuraiYiSkin.jpg","Master_Yi_SnowManYiSkin.jpg","Master_Yi_SpiritBlossomSkin.jpg"]
     },
     {
         "name": "Milio",
@@ -323,7 +323,7 @@
     },
     {
         "name": "Mordekaiser",
-        "images": ["Mordekaiser_AshenGraveknightSkin.jpg","Mordekaiser_DarkCrusaderSkin.jpg","Mordekaiser_DarkStarSkin.jpg","Mordekaiser_DragonKnightSkin.jpg","Mordekaiser_HighNoonSkin.jpg","Mordekaiser_InfernalSkin.jpg","Mordekaiser_KingofClubsSkin.jpg","Mordekaiser_LordSkin.jpg","Mordekaiser_OriginalSkin.jpg","Mordekaiser_PentakillLostChapterSkin.jpg","Mordekaiser_PentakillSkin.jpg","Mordekaiser_PROJECTSkin.jpg","vX0FfBW.jpg"]
+        "images": ["Mordekaiser_AshenGraveknightSkin.jpg","Mordekaiser_DarkCrusaderSkin.jpg","Mordekaiser_DarkStarSkin.jpg","Mordekaiser_DragonKnightSkin.jpg","Mordekaiser_HighNoonSkin.jpg","Mordekaiser_InfernalSkin.jpg","Mordekaiser_KingofClubsSkin.jpg","Mordekaiser_LordSkin.jpg","Mordekaiser_OriginalSkin.jpg","Mordekaiser_PentakillLostChapterSkin.jpg","Mordekaiser_PentakillSkin.jpg","Mordekaiser_PROJECTSkin.jpg"]
     },
     {
         "name": "Morgana",
@@ -444,7 +444,7 @@
     },
     {
         "name": "Sejuani",
-        "images": ["Rift_Quest_party_01.jpg","Sejuani_BearCavalrySkin.jpg","Sejuani_BeastHunterSkin.jpg","Sejuani_DarkriderSkin.jpg","Sejuani_FirecrackerSkin.jpg","Sejuani_HextechSkin.jpg","Sejuani_OriginalSkin.jpg","Sejuani_PoroRiderSkin.jpg","Sejuani_PROJECTSkin.jpg","Sejuani_SabretuskSkin.jpg","Sejuani_SejuaniDawnchaserSkin.jpg","Sejuani_SolarEclipseSkin.jpg","Sejuani_TraditionalSkin.jpg","Sejuani_VictoriousSkin.jpg"]
+        "images": ["Sejuani_BearCavalrySkin.jpg","Sejuani_BeastHunterSkin.jpg","Sejuani_DarkriderSkin.jpg","Sejuani_FirecrackerSkin.jpg","Sejuani_HextechSkin.jpg","Sejuani_OriginalSkin.jpg","Sejuani_PoroRiderSkin.jpg","Sejuani_PROJECTSkin.jpg","Sejuani_SabretuskSkin.jpg","Sejuani_SejuaniDawnchaserSkin.jpg","Sejuani_SolarEclipseSkin.jpg","Sejuani_TraditionalSkin.jpg","Sejuani_VictoriousSkin.jpg"]
     },
     {
         "name": "Senna",
@@ -582,7 +582,7 @@
     },
     {
         "name": "Vi",
-        "images": ["Vi_ArcaneSkin.jpg","Vi_DebonairSkin.jpg","Vi_DemonSkin.jpg","Vi_HeartacheSkin.jpg","Vi_HeartacheSkin_Censored.jpg","Vi_HeartbreakerSkin.jpg","Vi_NeonStrikeSkin.jpg","Vi_OfficerSkin.jpg","Vi_OriginalSkin.jpg","Vi_PROJECTSkin.jpg","Vi_PsyOpsSkin.jpg","Vi_WarringKingdomsSkin.jpg"]
+        "images": ["Vi_ArcaneSkin.jpg","Vi_DebonairSkin.jpg","Vi_DemonSkin.jpg","Vi_HeartacheSkin.jpg","Vi_HeartbreakerSkin.jpg","Vi_NeonStrikeSkin.jpg","Vi_OfficerSkin.jpg","Vi_OriginalSkin.jpg","Vi_PROJECTSkin.jpg","Vi_PsyOpsSkin.jpg","Vi_WarringKingdomsSkin.jpg"]
     },
     {
         "name": "Viego",

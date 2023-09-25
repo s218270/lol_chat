@@ -1,51 +1,160 @@
-'use client'
+"use client";
 
-import { db } from '@/firebase'
-import { collection, orderBy, query } from 'firebase/firestore'
-import { useSession } from 'next-auth/react'
-import React, { useEffect, useState } from 'react'
-import { useCollection } from 'react-firebase-hooks/firestore'
-import Message from './Message'
-import type {InferGetServerSidePropsType ,GetServerSideProps, NextPage } from 'next'
-import { ArrowLeftOnRectangleIcon } from '@heroicons/react/24/outline'
-
+import { db } from "@/firebase";
+import { collection, orderBy, query } from "firebase/firestore";
+import { useSession } from "next-auth/react";
+import React, { useEffect, useState, useRef } from "react";
+import { useCollection } from "react-firebase-hooks/firestore";
+import Message from "./Message";
+import type {
+  InferGetServerSidePropsType,
+  GetServerSideProps,
+  NextPage,
+} from "next";
+import {
+  ArrowLeftIcon,
+  ArrowLeftOnRectangleIcon,
+  ArrowRightIcon,
+} from "@heroicons/react/24/outline";
+import championData from "../public/championData.json";
+import Image from "next/image";
+import ScrollButton from "./ScrollButton";
 
 interface Props {
-    champion: string;
-    fileNames: string[]
-  }
-
-const Chat: NextPage<Props> = (props) => {
-
-    const [image, setImage] = useState(`/champions/${props.champion}/background/${props.champion}_OriginalSkin.jpg`);
-
-    console.log(props.champion, props.fileNames);
-
-    const {data: session} = useSession()
-
-    const [messages] = useCollection(session && query(collection(db, 'users', session?.user?.email!, 'champions', props.champion, 'messages'),
-                                    orderBy('createdAt', 'asc')))
-
-  return (
-    <div className='flex-1 h-screen overflow-hidden overflow-y-hidden mr-0 p-0'>
-        <img src={`/champions/Aatrox/background/Aatrox_OriginalSkin.jpg`} className="flex-1 h-screen w-screen object-cover"/>
-        <button className="absolute top-0 left-0 p-3 z-50 rotate-180 md:rotate-0">
-                <ArrowLeftOnRectangleIcon className='w-12 h-12 self-end text-white'/>
-        </button>
-        <div className='absolute bottom-20 h-8 w-screen flex z-50 space-x-3 justify-center'>
-        {props.fileNames.map((item) => (
-                <button key={item} onClick={() => setImage(`/champions/${props.champion}/background/${item}`)} className={`w-6 h-6 rounded hover:opacity-50 ${
-                    image == `/champions/${props.champion}/background/${item}` ? 'bg-[#2EBFA5]' : 'bg-slate-200'
-                  } active:bg-[#13505B]`}/>
-                ))}
-        </div>
-        <div className='top-0 absolute h-5/6 overflow-y-auto w-full'>
-        {messages?.docs.map((message) => (
-            <Message key={message.id} message={message.data()} avatar={props.champion}/>
-        ))}
-        </div>
-    </div>
-  )
+  champion: string;
+  fileNames: string[];
 }
 
-export default Chat
+const Chat: NextPage<Props> = (props) => {
+  const [image, setImage] = useState(
+    `/champions/${props.champion}/background/${props.champion}_OriginalSkin.jpg`
+  );
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentChampion = props.champion;
+  const listRef = useRef<HTMLDivElement>(null);
+
+  const files = championData.filter((item) => {
+    return item.name.toLowerCase() == props.champion.toLowerCase();
+  });
+
+  const currentImage = files[0].images[currentIndex];
+
+  const { data: session } = useSession();
+
+  const [messages] = useCollection(
+    session &&
+      query(
+        collection(
+          db,
+          "users",
+          session?.user?.email!,
+          "champions",
+          props.champion,
+          "messages"
+        ),
+        orderBy("createdAt", "asc")
+      )
+  );
+
+  const regex = /^([^_]+(?:_[^_]+)?)_(.*?)Skin\.jpg$/;
+
+  const match = currentImage.match(regex);
+
+//   if (match) {
+//     let champion = match[1].replace(/_/g, " ");
+//     const fileNamePart = match[2]
+//       ?.replace(/_/g, " ")
+//       .replace(/([A-Z])/g, " $1");
+
+//     if (fileNamePart) {
+//       console.log("champion:", champion);
+//       console.log("fileName:", fileNamePart);
+//     } else {
+//       console.log("champion and fileName:", champion);
+//     }
+//   } else {
+//     console.log("No match found.", currentImage);
+//   }
+
+  //console.log("match ", match);
+
+  useEffect(() => {
+    files[0].images.map((item, index) => {
+      if (`/champions/${props.champion}/background/${item}` == image) {
+        setCurrentIndex(index);
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    if (image != `/champions/${props.champion}/background/${currentImage}`) {
+      setImage(`/champions/${props.champion}/background/${currentImage}`);
+    }
+  }, [currentIndex]);
+
+  return (
+    <>
+      <div className="absolute bottom-24 h-8 w-4/5 flex z-50 space-x-2 justify-between self-center">
+        <button
+          onClick={() =>
+            setCurrentIndex((prevIndex) =>
+              prevIndex === 0 ? files[0].images.length - 1 : prevIndex - 1
+            )
+          }
+          // ... other attributes ...
+        >
+          {/* Left button icon */}
+          <ArrowLeftIcon className="rounded bg-[#13505B] hover:bg-[#2EBFA5] w-10 h-10 text-[#2EBFA5] hover:text-[#13505B] hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer" />
+        </button>
+        <p className="text-white text-xl font-semibold">{`${match![2]
+          .replace(/_/g, " ")
+          .replace(/([A-Z])/g, " $1")
+          .trim()} ${match![1].replace(/_/g, " ").trim()}`}</p>
+        <button
+          onClick={() =>
+            setCurrentIndex((prevIndex) =>
+              prevIndex === files[0].images.length - 1 ? 0 : prevIndex + 1
+            )
+          }
+          // ... other attributes ...
+        >
+          <ArrowRightIcon className="rounded w-10 h-10 bg-[#13505B] hover:bg-[#2EBFA5] text-[#2EBFA5] hover:text-[#13505B] hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer" />
+          {/* Right button icon */}
+        </button>
+      </div>
+      <div className="flex-1 overflow-hidden overflow-y-hidden mr-0 p-0">
+        <img src={image} className="flex-1 fullHeight w-screen object-cover" />
+
+        <div
+          className="top-0 absolute child overflow-y-auto w-full transition-all duration-500 ease-in-out"
+          ref={listRef}
+          style={{
+            scrollBehavior: "smooth",
+          }}
+        >
+          <div className="py-5 flex-col z-30 text-white bg-[#13505B]/40">
+            <div className="flex space-x-5 px-10 max-w-2xl mx-auto">
+              <img
+                src={`/champions/${props.champion}/${props.champion}Square.webp`}
+                className="h-8 w-8 rounded"
+              />
+              <p className="pt-1 text-base">Write me something!</p>
+            </div>
+          </div>
+          {messages?.docs.map((message) => (
+            <Message
+              key={message.id}
+              message={message.data()}
+              avatar={props.champion}
+              id={message.id}
+              champion={currentChampion}
+            />
+          ))}
+        </div>
+        <ScrollButton listRef={listRef} />
+      </div>
+    </>
+  );
+};
+
+export default Chat;

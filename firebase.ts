@@ -1,4 +1,5 @@
 import {getApp, getApps, initializeApp} from 'firebase/app'
+import {getAuth} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
 
 // Import the functions you need from the SDKs you need
@@ -25,6 +26,7 @@ if (typeof window !== 'undefined') {
     getAnalytics(app);
   }
 const db = getFirestore(app)
-console.log('dddddd', db)
+const auth = getAuth()
+//console.log('dddddd', db)
 
-export {db}
+export {db, auth}
