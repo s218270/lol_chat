@@ -19,6 +19,7 @@ import {
 import championData from "../public/championData.json";
 import Image from "next/image";
 import ScrollButton from "./ScrollButton";
+import { useStateValue } from "./StateContext";
 
 interface Props {
   champion: string;
@@ -30,8 +31,16 @@ const Chat: NextPage<Props> = (props) => {
     `/champions/${props.champion}/background/${props.champion}_OriginalSkin.jpg`
   );
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { stateVariable } = useStateValue();
   const currentChampion = props.champion;
   const listRef = useRef<HTMLDivElement>(null);
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  const scrollToBottom = () => {
+    if (listRef.current) {
+      listRef.current.scrollTop = listRef.current.scrollHeight;
+    }
+  };
 
   const files = championData.filter((item) => {
     return item.name.toLowerCase() == props.champion.toLowerCase();
@@ -60,24 +69,6 @@ const Chat: NextPage<Props> = (props) => {
 
   const match = currentImage.match(regex);
 
-//   if (match) {
-//     let champion = match[1].replace(/_/g, " ");
-//     const fileNamePart = match[2]
-//       ?.replace(/_/g, " ")
-//       .replace(/([A-Z])/g, " $1");
-
-//     if (fileNamePart) {
-//       console.log("champion:", champion);
-//       console.log("fileName:", fileNamePart);
-//     } else {
-//       console.log("champion and fileName:", champion);
-//     }
-//   } else {
-//     console.log("No match found.", currentImage);
-//   }
-
-  //console.log("match ", match);
-
   useEffect(() => {
     files[0].images.map((item, index) => {
       if (`/champions/${props.champion}/background/${item}` == image) {
@@ -91,6 +82,33 @@ const Chat: NextPage<Props> = (props) => {
       setImage(`/champions/${props.champion}/background/${currentImage}`);
     }
   }, [currentIndex]);
+
+  useEffect(() => {
+    let scrollInterval: any;
+
+    if (stateVariable?.loading) {
+      setIsScrolling(true);
+      // Start scrolling to bottom repeatedly while loading
+
+      scrollInterval = setInterval(() => {
+        scrollToBottom();
+      }, 500);
+    } else {
+      // Clear the interval if loading is false
+      clearInterval(scrollInterval);
+      setIsScrolling(false);
+    }
+
+    return () => {
+      clearInterval(scrollInterval); // Clear the interval on component unmount or state change
+    };
+  }, [stateVariable?.loading]);
+
+  useEffect(() => {
+    if (!stateVariable?.loading) {
+      scrollToBottom();
+    }
+  }, [messages]);
 
   return (
     <>
@@ -126,7 +144,7 @@ const Chat: NextPage<Props> = (props) => {
         <img src={image} className="flex-1 fullHeight w-screen object-cover" />
 
         <div
-          className="top-0 absolute child overflow-y-auto w-full transition-all duration-500 ease-in-out"
+          className="top-0 absolute child overflow-y-auto w-full transition-all duration-100 ease-in-out"
           ref={listRef}
           style={{
             scrollBehavior: "smooth",
@@ -150,6 +168,21 @@ const Chat: NextPage<Props> = (props) => {
               champion={currentChampion}
             />
           ))}
+          {stateVariable?.loading ? (
+            <Message
+              key={-1}
+              message={{
+                text: stateVariable?.response,
+                user: {
+                  _id: "ChatGPT",
+                  name: "ChatGPT",
+                },
+              }}
+              avatar={props.champion}
+              id={"current"}
+              champion={currentChampion}
+            />
+          ) : null}
         </div>
         <ScrollButton listRef={listRef} />
       </div>

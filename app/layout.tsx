@@ -11,6 +11,7 @@ import ClientProvider from "@/components/ClientProvider";
 import { useEffect } from "react";
 import pattern from "../public/styles/63171.jpg";
 import Image from "next/image";
+import {StateProvider} from '../components/StateContext'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,19 +52,21 @@ export default async function RootLayout({
 
       <body className="bg-black">
         <SessionProvider session={session}>
-          {!session ? (
-            <>
-              <Login />
-            </>
-          ) : (
-            <div className="flex flex-row fullHeight">
-              {/*Sidebar*/}
-              <SideBar />
-              <ClientProvider />
+            <StateProvider>
+            {!session ? (
+                <>
+                <Login />
+                </>
+            ) : (
+                <div className="flex flex-row fullHeight">
+                {/*Sidebar*/}
+                <SideBar />
+                <ClientProvider />
 
-              <div className="bg-black">{children}</div>
-            </div>
-          )}
+                <div className="bg-black">{children}</div>
+                </div>
+            )}
+            </StateProvider>
         </SessionProvider>
       </body>
     </html>

@@ -48,8 +48,9 @@ function Message({ message, avatar, id, champion }: Props) {
               : message.user.avatar
           }
           className="h-8 w-8 rounded mr-5"
+          alt="avatar"
         />
-        <p className="pt-1 text-base mr-5">{message.text}</p>
+        <p className="pt-1 text-lg mr-5">{message.text}</p>
         <button
           onClick={() => deleteMessage(id)}
           className="self-start ml-auto"

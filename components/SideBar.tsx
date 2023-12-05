@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useSession, signOut } from "next-auth/react";
 import React, { useEffect, useState } from "react";
 import NewChat from "./NewChat";
@@ -64,7 +64,7 @@ const SideBar = () => {
                   session.user?.image ||
                   `https://ui-avatars.com/api/?name=${session?.user?.name}`
                 }
-                alt=""
+                alt="avatar"
                 className="h-12 w-12 rounded cursor-pointer hover:opacity-50 my-2"
               />
               <button onClick={() => signOut()}>

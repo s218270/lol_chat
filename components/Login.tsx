@@ -3,7 +3,7 @@
 import { signIn } from "next-auth/react";
 import Image from "next/image";
 import React, { useState } from "react";
-import logo from "../public/default1.svg";
+import logo from "../public/Default_midnight_green_logo_for_chatbot_company_with_two_scary_1_83ccea56-f15d-494b-b825-9d264bd0c50d_0.png";
 import background from "../public/Maltphite.jpg";
 import Demo from "./Demo";
 import ChampionSelect from "./ChampionSelect";
@@ -44,10 +44,11 @@ const Login = () => {
   if (!isLoggingIn) {
     return (
       <div className={`${!isLoggingIn ? "relative min-h-screen" : "none"}`}>
-        <div className="fixed inset-0 bg-gradient-to-r from-[#13505B] to-[#2EBFA5] w-screen h-16 blur-md"></div>
-        <nav className="flex items-center w-screen h-16 fixed top-0 z-50 bg-black">
-          <div className="ml-[10%]">
-            <img src={logo.src} alt="logo" width={112} height={63} />
+        <div className="fixed inset-0 bg-gradient-to-r from-[#13505B] to-[#2EBFA5] w-screen h-20 blur-md"></div>
+        <nav className="flex items-center w-screen h-20 fixed top-0 z-50 bg-[#020202]">
+          <div className="ml-[5%] flex-row flex items-center">
+            <img src={logo.src} alt="logo" width={112} height={63} className=""/>
+            <h1 className="text-white font-bold text-2xl">LoL Chat</h1>
           </div>
           <div className="ml-auto flex space-x-4 mr-[3%]">
             <button
@@ -110,18 +111,20 @@ const Login = () => {
           id="champions"
         >
           <h2 className="text-white text-3xl my-8">Pick a Champion:</h2>
-          <ChampionSelect
-            width="3/5"
-            height="full"
-            backgroundColor="gray-700"
-            fontSize="16"
-            columnsLg="8"
-            columnsMd="4"
-            selected={setSelectedChampion}
-          />
+          {/* <div className="border-[#13505B] border-2 rounded"> */}
+            <ChampionSelect
+                width="3/5"
+                height="full"
+                backgroundColor="gray-700"
+                fontSize="16"
+                columnsLg="8"
+                columnsMd="4"
+                selected={setSelectedChampion}
+            />
+          {/* </div> */}
         </div>
 
-        <footer className="h-screen bg-black relative p-0 m-0 flex items-center justify-center flex-col">
+        <footer className="h-screen bg-[#020202] relative p-0 m-0 flex items-center justify-center flex-col">
           <h1 className="text-white text-3xl font-bold mb-16">Contact Us:</h1>
           <div className="p-8">
             <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
