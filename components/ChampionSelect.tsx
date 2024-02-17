@@ -8,8 +8,6 @@ import { useSession } from "next-auth/react";
 import SelectedChampion from "./SelectedChampion";
 import fs from "fs";
 import path from "path";
-import AuthLink from "./AuthLink";
-import { XCircleIcon } from "@heroicons/react/24/outline";
 
 interface CustomProps {
   width: string;
@@ -87,7 +85,7 @@ const ChampionSelect: React.FC<CustomProps> = ({
         </button>
       </div>
 
-      <div className="h-4/6 flex justify-center overflow-y-scroll border-[#2EBFA5] border-2 rounded p-4">
+      <div className="h-4/6 flex justify-center overflow-y-scroll">
         <div className={styles}>
           {filteredResults.map((champion) => (
             <div
