@@ -3,12 +3,12 @@
 import { signIn } from "next-auth/react";
 import Image from "next/image";
 import React, { useState } from "react";
-import logo from "../public/Default_midnight_green_logo_for_chatbot_company_with_two_scary_1_83ccea56-f15d-494b-b825-9d264bd0c50d_0.png";
+import logo from "/Default_midnight_green_logo_for_chatbot_company_with_two_scary_1_83ccea56-f15d-494b-b825-9d264bd0c50d_0.png";
 import background from "../public/Maltphite.jpg";
 import Demo from "./Demo";
 import ChampionSelect from "./ChampionSelect";
 import ChatRow from "./ChatRow";
-import pattern from "../public/styles/63171.jpg";
+import pattern from "/styles/63171.jpg";
 
 const Login = () => {
   const [selectedChampion, setSelectedChampion] = useState("");

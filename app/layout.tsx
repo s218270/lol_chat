@@ -12,6 +12,7 @@ import { useEffect } from "react";
 import pattern from "../public/styles/63171.jpg";
 import Image from "next/image";
 import {StateProvider} from '../components/StateContext'
+import GoogleAnalytics from './GoogleAnalytics'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,11 +31,16 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>LOLChat</title>
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Y6H7QQ2M"></script>
+        <title>LOLChatAI</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <meta name="title" content="LOLChatAI"></meta>
+
+        <meta name="google-adsense-account" content="ca-pub-4323342789576939"></meta>
         <link
           href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
@@ -47,10 +53,11 @@ export default async function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         ></link>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/Default_midnight_green_logo_for_chatbot_company_with_two_scary_1_83ccea56-f15d-494b-b825-9d264bd0c50d_0.png" />
       </head>
 
       <body className="bg-black">
+        <GoogleAnalytics/>
         <SessionProvider session={session}>
             <StateProvider>
             {!session ? (
@@ -63,7 +70,9 @@ export default async function RootLayout({
                 <SideBar />
                 <ClientProvider />
 
-                <div className="bg-black">{children}</div>
+                <div className="bg-black">
+                    {children}
+                </div>
                 </div>
             )}
             </StateProvider>
